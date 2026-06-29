@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:ImageObject"
+  ],
+  "schema:name": "Donation receipt for John Yee for the Confucius Church of Sacramento",
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
+  "schema:image": {
+    "@id": "@base:/media/images/Chicago_Cafe_Loose_0099_recto.tif"
+  },
+  "schema:identifier": [
+    "ark:/87293/d3nz8110w",
+    "D-822",
+    "loose_0099",
+    "Box:Folder 1.7"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1956"
+  },
+  "schema:temporal": "08-22-1956",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1919921"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/857249"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/875056"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1205542"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:ImageObject"
+  ],
+  "schema:name": "Portrait of a couple, including [unidentified A.1]",
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
+  "schema:image": {
+    "@id": "@base:/media/images/Chicago_Cafe_Photos_0215_recto.tif"
+  },
+  "schema:identifier": [
+    "ark:/87293/d3rb6wc4m",
+    "D-822",
+    "photos_0215",
+    "Box:Folder 1:15"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1061684"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/881567"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1072259"
+    }
+  ]
+}

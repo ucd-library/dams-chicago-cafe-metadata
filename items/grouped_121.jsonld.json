@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:Book",
+    "schema:CreativeWork",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:name": "Letter from the Mandarin Cafe (Waterloo, IA) to the Chicago Cafe in Chinese",
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
+  "schema:image": {
+    "@id": "@base:/media/images/Chicago_Cafe_Grouped_121_0001.tif"
+  },
+  "schema:identifier": [
+    "ark:/87293/d3rr1px6h",
+    "D-822",
+    "grouped_121",
+    "Box:Folder 1:7"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1945"
+  },
+  "schema:temporal": "12-11-1945",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1919921"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/857249"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/996779"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1095907"
+    }
+  ]
+}

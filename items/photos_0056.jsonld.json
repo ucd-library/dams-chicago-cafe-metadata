@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:ImageObject"
+  ],
+  "schema:name": "Portrait of Margaret, a waitress at the Chicago Cafe",
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
+  "schema:image": {
+    "@id": "@base:/media/images/Chicago_Cafe_Photos_0056_recto.tif"
+  },
+  "schema:identifier": [
+    "ark:/87293/d3pn8xr46",
+    "D-822",
+    "photos_0056",
+    "Box:Folder 1:17"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:description": "Handwritten on verso: \"September 1965; To John, my fat little boss at the Chicago Cafe in Woodland; Always, Margaret\".",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1965"
+  },
+  "schema:temporal": "09-1965",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1061684"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1095907"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1169947"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1743659"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1207623"
+    }
+  ]
+}

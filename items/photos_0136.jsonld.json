@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:ImageObject"
+  ],
+  "schema:name": "The Daily Democrat float with four soldiers and the slogan \"Remember our boys around the world at Christmas.\"",
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
+  "schema:image": {
+    "@id": "@base:/media/images/Chicago_Cafe_Photos_0136_recto.tif"
+  },
+  "schema:identifier": [
+    "ark:/87293/d31j97j6n",
+    "D-822",
+    "photos_0136",
+    "Box:Folder 1:17"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:description": "Woodland's annual Christmas parade on Main Street, Welcome to Santa Parade.",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1964"
+  },
+  "schema:temporal": "12-05-1964",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1061684"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1052822"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/859787"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1052819"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1125233"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1207623"
+    }
+  ]
+}

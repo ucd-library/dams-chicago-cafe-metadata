@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:ImageObject"
+  ],
+  "schema:name": "Woman posing next to booths in the Chicago Cafe at Christmas time",
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
+  "schema:image": {
+    "@id": "@base:/media/images/Chicago_Cafe_Photos_0074_recto.tif"
+  },
+  "schema:identifier": [
+    "ark:/87293/d3nz8111c",
+    "D-822",
+    "photos_0074",
+    "Box:Folder 1:17"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1960"
+  },
+  "schema:temporal": "[1960s]",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1061684"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1095907"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1743659"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/859787"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1207623"
+    }
+  ]
+}

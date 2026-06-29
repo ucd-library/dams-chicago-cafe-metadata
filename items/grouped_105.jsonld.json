@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:Book",
+    "schema:CreativeWork",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:name": "Daily Democrat clipping with ad for Chicago Restaurant",
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
+  "schema:image": {
+    "@id": "@base:/media/images/Chicago_Cafe_Grouped_105_0001.tif"
+  },
+  "schema:identifier": [
+    "ark:/87293/d3gq6rc48",
+    "D-822",
+    "grouped_105",
+    "Box:Folder 3.4"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:description": "Four page spread includes ads for Woodland restaurants in celebration of National Restaurant Month",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1963"
+  },
+  "schema:temporal": "10-25-1963",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1919921"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/797511"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1095907"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1037111"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1207623"
+    }
+  ]
+}

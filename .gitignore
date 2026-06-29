@@ -1,0 +1,19 @@
+# DAMS metadata repo: track JSON-LD metadata only; binaries live on the server / GCS.
+*
+!.gitignore
+!*/
+!*.jsonld.json
+!*.md
+!*.py
+!*.csv
+!*.txt
+# never commit the master TIFFs even if staged into the tree
+*.tif
+*.tiff
+# secrets
+.env
+venv/
+__pycache__/
+fast/batches/
+fast/proposals/
+fast/items_index.json

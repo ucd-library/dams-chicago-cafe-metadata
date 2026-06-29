@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:ImageObject"
+  ],
+  "schema:name": "Seven children of various ages posing",
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
+  "schema:image": {
+    "@id": "@base:/media/images/Chicago_Cafe_Photos_0046_recto.tif"
+  },
+  "schema:identifier": [
+    "ark:/87293/d3416t895",
+    "D-822",
+    "photos_0046",
+    "Box:Folder 1:17"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:description": "Verso stamp ties this photograph to Foto Murillo in Mexicali, Baja California, Mexico, which was started by Jose Fong and continued by his son Roberto Fong.",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1955"
+  },
+  "schema:temporal": "08-16-1955",
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1061684"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/854835"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/857249"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1216926"
+    }
+  ]
+}

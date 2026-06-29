@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "ucdlib:ImageList",
+    "ldp:DirectContainer",
+    "schema:MediaObject"
+  ],
+  "schema:name": "Image List",
+  "ldp:hasMemberRelation": {
+    "@id": "schema:hasPart"
+  },
+  "ldp:isMemberOfRelation": {
+    "@id": "schema:isPartOf"
+  },
+  "ldp:membershipResource": {
+    "@id": ""
+  }
+}
