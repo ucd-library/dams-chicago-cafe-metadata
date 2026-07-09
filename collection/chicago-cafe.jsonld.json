@@ -17,7 +17,7 @@
     "@id": "@base:/labels"
   },
   "schema:name": "Chicago Cafe Records",
-  "schema:description": "TODO: collection-level description (Chicago Cafe, Woodland, CA — menus, ephemera, and photographs from the Fong family's Chicago Cafe).",
+  "schema:description": "The Chicago Cafe, located on Main Street in Woodland, California, is one of the oldest continuously operating Chinese restaurants in the United States. Three generations of the Fong family owned the cafe, and it has operated at least since 1910, according to documents unearthed by UC Davis research. However, the Fongs claim to have been operating since 1903.\n\nThe Fong family patriarch (current owner Paul Fong's grandfather) came to the U.S., arriving into San Francisco Bay under the name Harry Young. “Harry Young” made his way to Woodland, which had developed a busy Chinatown populated by immigrants who had come to work on the transcontinental railroad. When Paul was still young, his father John Fong (listed as Yee Chong Pang on his passport) left Taishan, Guangdong province, to join his grandfather in Woodland. In 1973, Paul and his mother joined his father at the restaurant, along with Nancy Fong (Paul's wife). Paul and Nancy Fong worked in the restaurant since 1973, only recently shuttering in 2025.\n\nThis collection consists of [Photographs](http://id.worldcat.org/fast/1061684), [Menus](http://id.worldcat.org/fast/1016875), and [Ephemera](http://id.worldcat.org/fast/1919921).",
   "schema:identifier": [
     "D-822",
     "ark:/87293/d30c4sv8b"
@@ -40,6 +40,27 @@
     },
     {
       "@id": "http://id.worldcat.org/fast/1919921"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1207623"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1743659"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/857249"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1753278"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1095907"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1176568"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1072259"
     }
   ],
   "schema:sdLicense": {
