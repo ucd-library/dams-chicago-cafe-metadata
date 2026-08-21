@@ -30,7 +30,7 @@
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
-  "schema:description": "1987 Calendar produced by Woodland Travel, located across the street from the Chicago Cafe. Includes historical photos of the block, including the Chicago \"Chop Suey\" Cafe sign in the 1946 snowy street scene for December. Not annotated.",
+  "schema:description": "1987 Calendar produced by Woodland Travel, located across the street from the Chicago Cafe. Includes historical photos of the block, including the Chicago \"Chop Suey\" Cafe sign in the 1946 snowy street scene for December. Includes local events in addition to national holidays. Not annotated.",
   "schema:datePublished": {
     "@type": "http://www.w3.org/2001/XMLSchema#gYear",
     "@value": "1987"

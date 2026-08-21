@@ -29,6 +29,30 @@ GOOD = "Good for digital collection"
 # Master tree, relative to D-822_Chicago_Cafe_Records on the digitization server.
 MASTER_ROOT = "D-822_Chicago_Cafe_Records"
 
+# ---- Special cases from Kevin Miller's Aug 2026 review (Column H of the sheet) ----
+# loose_0001 + loose_0068 are two halves of one early bifold menu, physically
+# separated before digitization. Combined into a single Book under loose_0068
+# (its metadata + ARK). Page order per Kevin's screenshot, verified against the
+# scans: cover (0068 recto), American Bill of Fare (0068 verso), China Dishes
+# (0001 VERSO), Eagle Dairy back-page ads (0001 RECTO).
+COMBINE_INTO_LOOSE_0068 = [
+    "Chicago_Cafe_Loose/Chicago_Cafe_Loose_0068_recto.tif",
+    "Chicago_Cafe_Loose/Chicago_Cafe_Loose_0068_verso.tif",
+    "Chicago_Cafe_Loose/Chicago_Cafe_Loose_0001_verso.tif",
+    "Chicago_Cafe_Loose/Chicago_Cafe_Loose_0001_recto.tif",
+]
+COMBINE_SKIP = {"loose_0001"}  # absorbed into loose_0068
+
+# photos_0113 ("Portrait of a young man"): both 0113 scans are the EMPTY mount
+# card — the portrait itself was scanned as the Photos_0112 pair (excluded from
+# the collection as its own item). Portrait first, mount kept as trailing pages.
+PHOTOS_0113_PAGES = [
+    "Chicago_Cafe_Photos/Chicago_Cafe_Photos_0112_recto.tif",
+    "Chicago_Cafe_Photos/Chicago_Cafe_Photos_0112_verso.tif",
+    "Chicago_Cafe_Photos/Chicago_Cafe_Photos_0113_recto.tif",
+    "Chicago_Cafe_Photos/Chicago_Cafe_Photos_0113_verso.tif",
+]
+
 CONTEXT = {
     "ldp": "http://www.w3.org/ns/ldp#",
     "schema": "http://schema.org/",
@@ -50,6 +74,13 @@ PUBLISHER = {
 CT_PHOTOGRAPHS = {"@id": "http://id.worldcat.org/fast/1061684", "schema:name": "Photographs"}
 CT_MENUS = {"@id": "http://id.worldcat.org/fast/1016875", "schema:name": "Menus"}
 CT_EPHEMERA = {"@id": "http://id.worldcat.org/fast/1919921", "schema:name": "Ephemera"}
+
+# Per-item content-type facet overrides (Kevin, Aug 2026): letters/cards filed
+# with the photos are Ephemera, not Photographs.
+FACET_OVERRIDES = {
+    "photos_0060": [CT_EPHEMERA],
+    "photos_0212": [CT_EPHEMERA],
+}
 
 
 def load_manifest():
@@ -90,6 +121,8 @@ def read_rows(path, divider_text=None):
 
 YEAR_RE = re.compile(r"(1[89]\d{2}|20\d{2})")
 
+XSD = "http://www.w3.org/2001/XMLSchema#"
+
 
 def extract_year(*texts):
     """Return first plausible 4-digit year found, else None."""
@@ -100,6 +133,37 @@ def extract_year(*texts):
         if m:
             return m.group(1)
     return None
+
+
+def parse_date(date_raw):
+    """Parse the CSV Date column into (xsd_datatype, value) for schema:datePublished.
+
+    Full dates from the spreadsheet must display in full (Kevin's "Full date?"
+    correction round, Aug 2026):
+      MM-DD-YYYY / M/D/YYYY -> xsd:date  YYYY-MM-DD
+      MM-YYYY (also "05- 1961") -> xsd:gYearMonth  YYYY-MM
+      YYYY -> xsd:gYear
+      "Undated" / blank -> (None, None)  (range/circa text lives in Description)
+      decades & ranges ("1980s", "1920s - 1940s") -> first year as xsd:gYear —
+        interim until the DAMS imprecise-date support lands; raw string is
+        preserved in schema:temporal either way.
+    """
+    d = (date_raw or "").strip()
+    if not d or d.lower() == "undated":
+        return None, None
+    m = re.fullmatch(r"(\d{1,2})\s*[-/]\s*(\d{1,2})\s*[-/]\s*(\d{4})", d)
+    if m:
+        mo, dy, yr = int(m.group(1)), int(m.group(2)), m.group(3)
+        return XSD + "date", f"{yr}-{mo:02d}-{dy:02d}"
+    m = re.fullmatch(r"(\d{1,2})\s*[-/]\s*(\d{4})", d)
+    if m:
+        return XSD + "gYearMonth", f"{m.group(2)}-{int(m.group(1)):02d}"
+    if re.fullmatch(r"\d{4}", d):
+        return XSD + "gYear", d
+    year = extract_year(d)
+    if year:
+        return XSD + "gYear", year
+    return None, None
 
 
 def content_type_for(title):
@@ -169,9 +233,9 @@ def build_item(item_id, title, item_type, tif_relpaths, date_raw, description, c
     if description and description.strip():
         node["schema:description"] = description.strip()
 
-    year = extract_year(date_raw)
-    if year:
-        node["schema:datePublished"] = {"@type": "http://www.w3.org/2001/XMLSchema#gYear", "@value": year}
+    dtype, dval = parse_date(date_raw)
+    if dval:
+        node["schema:datePublished"] = {"@type": dtype, "@value": dval}
     if date_raw and date_raw.strip():
         node["schema:temporal"] = date_raw.strip()
 
@@ -230,17 +294,25 @@ def main():
         abridged = row["Abridged File Name"].strip()       # loose_0001
         rec = (row.get("Recommendation") or "").strip()
         num = abridged.split("_")[-1]
+        if abridged in COMBINE_SKIP:
+            report["skipped_not_good"].append((abridged, "combined into loose_0068"))
+            continue
         if rec != GOOD:
             report["skipped_not_good"].append((abridged, rec))
             continue
-        tifs = sorted(loose_by_num.get(num, []))  # recto before verso (alpha)
+        if abridged == "loose_0068":
+            tifs = COMBINE_INTO_LOOSE_0068
+            item_type = "multi"  # 4-page bifold -> Book
+        else:
+            tifs = sorted(loose_by_num.get(num, []))  # recto before verso (alpha)
+            item_type = "single"
         if not tifs:
             report["good_no_masters"].append((abridged, f"no Loose_{num}"))
             continue
         title = (row.get("Title") or "").strip() or f"[Untitled] {abridged}"
         node, sidecars, _ = build_item(
-            abridged, title, "single", tifs,
-            row.get("Date", ""), "",  # loose CSV has no Description column
+            abridged, title, item_type, tifs,
+            row.get("Date", ""), row.get("Description", ""),
             content_type_for(title), row.get("Box: Folder", ""))
         items_made.append((abridged, node, sidecars, tifs))
         report["kept"].append(abridged)
@@ -259,7 +331,10 @@ def main():
         if rec != GOOD:
             report["skipped_not_good"].append((abridged, rec))
             continue
-        tifs = sorted(photos_by_num.get(num, []))
+        if abridged == "photos_0113":
+            tifs = PHOTOS_0113_PAGES  # portrait was scanned as the 0112 pair
+        else:
+            tifs = sorted(photos_by_num.get(num, []))
         if not tifs:
             report["good_no_masters"].append((abridged, f"no Photos_{num}"))
             continue
@@ -267,7 +342,7 @@ def main():
         node, sidecars, _ = build_item(
             abridged, title, "single", tifs,
             row.get("Date", ""), row.get("Description", ""),
-            [CT_PHOTOGRAPHS], row.get("Box: Folder", ""))
+            FACET_OVERRIDES.get(abridged, [CT_PHOTOGRAPHS]), row.get("Box: Folder", ""))
         items_made.append((abridged, node, sidecars, tifs))
         report["kept"].append(abridged)
 
@@ -281,7 +356,14 @@ def main():
             write_json(REPO / dest, obj)
 
     # ---- Collection node ----
-    coll = {
+    # The collection node is hand-maintained (Fong-family description, curated
+    # top-10 FAST subjects, real ARK) — never overwrite an existing one.
+    coll_path = REPO / "collection" / f"{COLLECTION_SLUG}.jsonld.json"
+    if coll_path.exists():
+        print("collection node exists — left untouched (hand-maintained)")
+        coll = None
+    else:
+        coll = {
         "@context": CONTEXT, "@id": "",
         "@type": ["schema:Collection", "http://fedora.info/definitions/v4/repository#ArchivalGroup"],
         "ucdlib:hasLabel": {"@id": "@base:/labels"},
@@ -294,19 +376,23 @@ def main():
         "schema:about": [{"@id": c["@id"]} for c in (CT_PHOTOGRAPHS, CT_MENUS, CT_EPHEMERA)],
         "schema:sdLicense": {"@id": LICENSE},
         "schema:sdPublisher": [PUBLISHER],
-    }
-    write_json(REPO / "collection" / f"{COLLECTION_SLUG}.jsonld.json", coll)
+        }
+    if coll is not None:
+        write_json(coll_path, coll)
 
     # initial labels from the content-type facet terms; apply_fast.py extends this
-    # with every per-item FAST subject (id -> display name).
-    labels = [{
-        "@id": "", "@context": {"ucdlib": "http://digital.ucdavis.edu/schema#"},
-        "@type": ["ucdlib:LabelService", "ucdlib:Service"],
-    }] + [
-        {"@id": c["@id"], "http://schema.org/name": c["schema:name"]}
-        for c in (CT_PHOTOGRAPHS, CT_MENUS, CT_EPHEMERA)
-    ]
-    write_json(REPO / "collection" / COLLECTION_SLUG / "labels.jsonld.json", labels)
+    # with every per-item FAST subject (id -> display name). Same guard: don't
+    # clobber the full label set apply_fast.py maintains.
+    labels_path = REPO / "collection" / COLLECTION_SLUG / "labels.jsonld.json"
+    if not labels_path.exists():
+        labels = [{
+            "@id": "", "@context": {"ucdlib": "http://digital.ucdavis.edu/schema#"},
+            "@type": ["ucdlib:LabelService", "ucdlib:Service"],
+        }] + [
+            {"@id": c["@id"], "http://schema.org/name": c["schema:name"]}
+            for c in (CT_PHOTOGRAPHS, CT_MENUS, CT_EPHEMERA)
+        ]
+        write_json(labels_path, labels)
 
     # ---- Item index (for the FAST subject-proposal step) ----
     index = []

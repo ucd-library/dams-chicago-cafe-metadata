@@ -31,13 +31,13 @@
   },
   "schema:description": "Correspondence to \"Ben\" from \"Quincia\"(?) regarding passport and travel to Hong Kong. The letter was sent from Mexicali, Baja California, Mexico.",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1962"
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1962-12-31"
   },
   "schema:temporal": "12-31-1962",
   "schema:about": [
     {
-      "@id": "http://id.worldcat.org/fast/1061684"
+      "@id": "http://id.worldcat.org/fast/1919921"
     },
     {
       "@id": "http://id.worldcat.org/fast/996779"

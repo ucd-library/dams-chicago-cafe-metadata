@@ -31,8 +31,8 @@
   },
   "schema:description": "Verso stamp ties this photograph to Foto Murillo in Mexicali, Baja California, Mexico, which was started by Jose Fong and continued by his son Roberto Fong.",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1955"
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1955-08-16"
   },
   "schema:temporal": "08-16-1955",
   "schema:about": [

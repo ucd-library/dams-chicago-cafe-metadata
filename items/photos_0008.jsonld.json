@@ -13,7 +13,7 @@
     "schema:CreativeWork",
     "schema:ImageObject"
   ],
-  "schema:name": "Portrait of man [unidentified B]",
+  "schema:name": "Portrait of unidentified man",
   "schema:associatedMedia": {
     "@id": "@base:/media/images"
   },

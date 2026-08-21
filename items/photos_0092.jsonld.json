@@ -13,7 +13,7 @@
     "schema:CreativeWork",
     "schema:ImageObject"
   ],
-  "schema:name": "A family poses on the steps of a building",
+  "schema:name": "A family poses on the steps of a building with Chinese signage",
   "schema:associatedMedia": {
     "@id": "@base:/media/images"
   },

@@ -13,7 +13,7 @@
     "schema:CreativeWork",
     "schema:ImageObject"
   ],
-  "schema:name": "Portrait of an unidentified man standing",
+  "schema:name": "Portrait of John Fong standing",
   "schema:associatedMedia": {
     "@id": "@base:/media/images"
   },
@@ -28,10 +28,10 @@
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
-  "schema:description": "Stamp on verso: Foto Murillo, Mexicali, Baja California, Mexico",
+  "schema:description": "Stamp on verso: Foto Murillo, Mexicali, Baja California, Mexico.",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1959"
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1959-02-21"
   },
   "schema:temporal": "02-21-1959",
   "schema:about": [

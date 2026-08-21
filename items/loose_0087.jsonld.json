@@ -30,8 +30,8 @@
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1933"
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1933-11-18"
   },
   "schema:temporal": "11-18-1933",
   "schema:about": [

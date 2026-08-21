@@ -30,6 +30,7 @@
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
+  "schema:description": "Insurance and financial documents, including a postmarked envelope from R. A. Lawson (Fireman's Fund Insurance) to Mr. John C. Yee, and two 'Assignment of Interest Endorsements' for automobile policies. These endorsements transfer interest in vehicles to John C. Yee and Ngook Fong, noting their occupations as managers of the Chicago Cafe and Fong's Cafe. The final document is an 'Assignment and Assumption Agreement, transferring a 1956 Ford V8 from Loo Gat Wong to Yee or Fong, payable to The Anglo California National Bank.",
   "schema:datePublished": {
     "@type": "http://www.w3.org/2001/XMLSchema#gYear",
     "@value": "1958"

@@ -30,11 +30,8 @@
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
-  "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1953"
-  },
-  "schema:temporal": "1953-1955",
+  "schema:description": "Circa 1953 - 1955",
+  "schema:temporal": "Undated",
   "schema:about": [
     {
       "@id": "http://id.worldcat.org/fast/1016875"

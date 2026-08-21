@@ -29,8 +29,8 @@
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1967"
+    "@type": "http://www.w3.org/2001/XMLSchema#gYearMonth",
+    "@value": "1967-03"
   },
   "schema:temporal": "03-1967",
   "schema:about": [

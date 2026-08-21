@@ -30,7 +30,12 @@
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
-  "schema:description": "Description AI assisted",
+  "schema:description": "Document detailing the regulations and membership records of a traditional Chinese rotating savings and credit association (hui). The document includes the association's founding principles, rules regarding membership contributions (30 yuan per share), meeting schedules (18th of each month), and procedures for bidding and receiving funds. It lists the names of participating members, their assigned shares, and specific dates and amounts for received funds. The document is dated August 18, 1938 (Republic of China Year 27). Description AI assisted",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1938"
+  },
+  "schema:temporal": "1938",
   "schema:about": [
     {
       "@id": "http://id.worldcat.org/fast/1919921"

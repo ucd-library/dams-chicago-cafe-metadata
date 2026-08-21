@@ -31,8 +31,8 @@
   },
   "schema:description": "The Miss Chinatown pageant was held by the Chinese American Citizens Alliance (CACA) as a part of their Independence Day picnic celebrations at the Old Hearst Ranch (Hacienda del Pozo de Verona) in Pleasanton, California. Handwritten on verso: \"Waiting for the judge [to] announce the winner\".",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1949"
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1949-07-04"
   },
   "schema:temporal": "07-04-1949",
   "schema:about": [

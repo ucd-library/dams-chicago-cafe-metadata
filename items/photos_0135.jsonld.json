@@ -31,8 +31,8 @@
   },
   "schema:description": "Woodland's annual Christmas parade on Main Street, Welcome to Santa Parade.",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1964"
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1964-12-05"
   },
   "schema:temporal": "12-05-1964",
   "schema:about": [

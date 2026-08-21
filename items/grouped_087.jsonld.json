@@ -14,7 +14,7 @@
     "schema:CreativeWork",
     "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
-  "schema:name": "1:8",
+  "schema:name": "Canton Restaurant (Woodland, CA) menu",
   "schema:associatedMedia": {
     "@id": "@base:/media/images"
   },
@@ -32,7 +32,13 @@
   },
   "schema:about": [
     {
-      "@id": "http://id.worldcat.org/fast/1919921"
+      "@id": "http://id.worldcat.org/fast/1016875"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1207623"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1743659"
     }
   ]
 }

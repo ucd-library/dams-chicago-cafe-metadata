@@ -28,6 +28,7 @@
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
+  "schema:description": "Probably early 1950s (1953 - 1955) based on phone number",
   "schema:about": [
     {
       "@id": "http://id.worldcat.org/fast/1919921"

@@ -1,8 +1,8 @@
 # Chicago Cafe (D-822) build coverage
 
-- Items generated: **373**
+- Items generated: **371**
   - grouped (multi-page): 103
-  - loose (single): 90
+  - loose (single): 88
   - photos (single): 180
 - TIFF images referenced: **1209**
 
@@ -31,4 +31,4 @@
 - Chicago_Cafe_Grouped_112
 - Chicago_Cafe_Grouped_116
 
-## Rows skipped (not 'Good for digital collection'): 89
+## Rows skipped (not 'Good for digital collection'): 91

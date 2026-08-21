@@ -27,3 +27,31 @@ Verified 2026-07-06: labels container in fcrepo has all 104 id→name mappings; 
 - **Derivatives:** the `image-products` workflow must be started on each **binary path** (`/item/ark:/.../media/images/X.tif`), not the item or collection (those stay `pending` forever). `--force` to regenerate. A collection reindex with `hasPart` crawl auto-triggers them.
 - **Orientation:** `dams-image-utils` does NOT auto-apply the TIFF orientation tag; bake rotation into pixels (PIL `ImageOps.exif_transpose`, verify with a thumbnail).
 - Scripts in this repo: `build_collection.py`, `fast_lookup.py`, `apply_fast.py`, `mint_arks.py`, `stage_binaries.py`.
+
+## Kevin Miller review round (2026-08-21)
+Parsed from `Re: Digital Collections CSV Template.pdf` (email thread) + the reviewed
+Google Sheet CSVs (Column H "Digital Collection (human)" = checklist; tan/older columns
+ignored). Rebuilt the tree — 371 items (was 373). All metadata edits are in this commit;
+**not yet imported to dev**.
+
+Import runbook (server, from the repo checkout):
+1. Pull this commit; `python3 stage_binaries.py --dry-run` NOT needed for metadata.
+2. Metadata slim tree (per metadata-only rule): `collection/` + all `items/*.jsonld.json`
+   node files, no `media/` binaries → `fin io import --dry-run` first, grep DELETE.
+3. Binary trees (only two): `items/loose_0068/` (4 tifs — 2 new Loose_0001 pages, order
+   cover/AmBillOfFare/ChinaDishes[=0001_verso]/backAds[=0001_recto]) and
+   `items/photos_0113/` (4 tifs — 2 new Photos_0112 pages first). Include media/ +
+   sidecars (existing pages get new positions). Symlink masters via stage_binaries logic.
+4. DAMS deletes (fin/HTTP DELETE + tombstone): loose_0001 `ark:/87293/d3wd3qb7b`,
+   loose_0067 `ark:/87293/d3p55ds8d`.
+5. Verify: image-products auto-run on the 4 new binaries; loose_0068 renders as Book with
+   4 pages; photos_0113 thumbnail = portrait; photos_0001-style full dates display
+   (e.g. grouped_121 → 1945-12-11); item count 371.
+6. Kevin's admin edits (thumbnail featuredImage.jpg + 6 highlights) live in
+   `/application/ucd-lib-client/...` — imports don't touch them; confirm still present,
+   then email Kevin for his final pass.
+
+Notes: dates — full dates now xsd:date/gYearMonth; "Undated" per Kevin displays via
+temporal only; decades/ranges keep first-year gYear until Dusty's imprecise-date fix.
+Collection description: worldcat markdown links replaced with plain text (Kevin: links
+didn't work). grouped_001 page order verified already correct on dev (stale note).

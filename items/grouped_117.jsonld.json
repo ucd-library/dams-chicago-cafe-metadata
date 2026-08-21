@@ -32,8 +32,8 @@
   },
   "schema:description": "Filled out to Bow Joew, Del Mar Hotel, Woodland, CA",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1942"
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1942-05-07"
   },
   "schema:temporal": "05-07-1942",
   "schema:about": [

@@ -14,7 +14,7 @@
     "schema:CreativeWork",
     "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
-  "schema:name": "Capitol Tea Garden (Sacramento, CA) menu",
+  "schema:name": "Strange Uncertainty Note; it seems to think there are two pages with differing addresses, but it's only one page",
   "schema:associatedMedia": {
     "@id": "@base:/media/images"
   },
@@ -32,7 +32,7 @@
   },
   "schema:about": [
     {
-      "@id": "http://id.worldcat.org/fast/1016875"
+      "@id": "http://id.worldcat.org/fast/1919921"
     },
     {
       "@id": "http://id.worldcat.org/fast/1743659"

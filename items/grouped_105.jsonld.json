@@ -32,8 +32,8 @@
   },
   "schema:description": "Four page spread includes ads for Woodland restaurants in celebration of National Restaurant Month",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1963"
+    "@type": "http://www.w3.org/2001/XMLSchema#date",
+    "@value": "1963-10-25"
   },
   "schema:temporal": "10-25-1963",
   "schema:about": [

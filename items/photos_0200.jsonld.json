@@ -31,8 +31,8 @@
   },
   "schema:description": "Inscription on verso \"Sylvia Fruitt (?)\"",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1955"
+    "@type": "http://www.w3.org/2001/XMLSchema#gYearMonth",
+    "@value": "1955-09"
   },
   "schema:temporal": "09-1955",
   "schema:about": [

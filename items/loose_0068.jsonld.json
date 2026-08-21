@@ -10,8 +10,9 @@
   },
   "@id": "",
   "@type": [
+    "schema:Book",
     "schema:CreativeWork",
-    "schema:ImageObject"
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
   "schema:name": "Chicago Chop Suey Cafe menu",
   "schema:associatedMedia": {
@@ -29,6 +30,8 @@
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
+  "schema:description": "Early Chicago Cafe menu, from the 1920s - 1940s, based on the address and phone number.",
+  "schema:temporal": "Undated",
   "schema:about": [
     {
       "@id": "http://id.worldcat.org/fast/1016875"

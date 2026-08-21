@@ -31,8 +31,8 @@
   },
   "schema:description": "Handwritten on verso: \"September 1965; To John, my fat little boss at the Chicago Cafe in Woodland; Always, Margaret\".",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1965"
+    "@type": "http://www.w3.org/2001/XMLSchema#gYearMonth",
+    "@value": "1965-09"
   },
   "schema:temporal": "09-1965",
   "schema:about": [

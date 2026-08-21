@@ -30,8 +30,8 @@
   },
   "schema:description": "Likely in Fong's Cafe, 525 Main Street, Woodland, CA.",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1964"
+    "@type": "http://www.w3.org/2001/XMLSchema#gYearMonth",
+    "@value": "1964-11"
   },
   "schema:temporal": "11-1964",
   "schema:about": [

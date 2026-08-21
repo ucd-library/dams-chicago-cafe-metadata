@@ -13,7 +13,7 @@
     "schema:CreativeWork",
     "schema:ImageObject"
   ],
-  "schema:name": "Generic menu (identical to 064, minus corner tear on 064",
+  "schema:name": "Generic menu",
   "schema:associatedMedia": {
     "@id": "@base:/media/images"
   },

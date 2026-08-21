@@ -31,8 +31,8 @@
   },
   "schema:description": "A man, likely Jose Fong, holds a baby and sits with two young children, who show off gifts of candy. José Fong Chee Wi San opened a photo studio in Mexicali, Baja California, Mexico named Foto Murillo.",
   "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1958"
+    "@type": "http://www.w3.org/2001/XMLSchema#gYearMonth",
+    "@value": "1958-08"
   },
   "schema:temporal": "08-1958",
   "schema:about": [
