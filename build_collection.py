@@ -80,6 +80,7 @@ CT_EPHEMERA = {"@id": "http://id.worldcat.org/fast/1919921", "schema:name": "Eph
 FACET_OVERRIDES = {
     "photos_0060": [CT_EPHEMERA],
     "photos_0212": [CT_EPHEMERA],
+    "photos_0187": [CT_EPHEMERA],  # 1953 PRC banknote (Kevin, 2026-08-28)
 }
 
 
