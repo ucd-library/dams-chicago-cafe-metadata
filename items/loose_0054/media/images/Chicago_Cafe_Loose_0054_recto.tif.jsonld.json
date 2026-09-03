@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Cafe Thanksgiving dinner menu dated November 27, 1952, listing roast turkey, fried chicken, and roast beef."
 }

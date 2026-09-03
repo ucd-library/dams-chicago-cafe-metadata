@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Five men in white shirts seated around a table playing mahjong in a room with patterned curtains."
 }

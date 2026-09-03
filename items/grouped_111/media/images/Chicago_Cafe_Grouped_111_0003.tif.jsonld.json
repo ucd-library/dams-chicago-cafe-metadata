@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "03"
+  "schema:position": "03",
+  "schema:alternativeHeadline": "Newspaper page showing Chicago Cafe customers, owner Paul Fong, and cook John Fong preparing food in the kitchen."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "John Fong holds a large winter melon in a garden while a spotted dog stands nearby."
 }

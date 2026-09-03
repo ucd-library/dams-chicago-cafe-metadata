@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "20"
+  "schema:position": "20",
+  "schema:alternativeHeadline": "Chicago Cafe daily menu from March 8, 1953, listing breakfast, lunch, and dinner options."
 }

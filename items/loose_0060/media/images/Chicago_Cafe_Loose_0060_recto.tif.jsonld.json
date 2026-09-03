@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Cafe Christmas menu for December 25, 1955, listing special dinners and daily items like pork spare rib and fried oysters."
 }

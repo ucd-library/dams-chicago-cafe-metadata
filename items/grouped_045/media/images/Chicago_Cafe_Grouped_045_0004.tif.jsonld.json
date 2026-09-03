@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "04"
+  "schema:position": "04",
+  "schema:alternativeHeadline": "Yee's Cafe menu page listing American Breakfast items including cereals, entrees, hot cakes, and drinks."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Golden Wok menu listing porridge, wonton soup, rice plates, and pastries with bilingual Chinese and English text."
 }

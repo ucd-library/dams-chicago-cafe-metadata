@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Airmail envelope addressed to Chicago Cafe, 411 Main St., Woodland, Calif., U.S.A., with two Chinese stamps."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Cafe daily menu for Sunday 24 July 1955 listing soups, roasts, and salads."
 }

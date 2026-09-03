@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Golden Dragon Restaurant menu listing dinner specials, soups, pork, beef, chicken, seafood, and chow mein."
 }

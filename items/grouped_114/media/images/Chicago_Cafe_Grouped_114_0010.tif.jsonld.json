@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "10"
+  "schema:position": "10",
+  "schema:alternativeHeadline": "Chicago Cafe menu listing cold salads, hot entrees, and specials with prices."
 }

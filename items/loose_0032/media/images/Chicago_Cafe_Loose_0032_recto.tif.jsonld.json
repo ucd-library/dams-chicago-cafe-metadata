@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Cafe menu listing dishes like chicken noodles, fried spring chicken, and steak, served Saturday 11 A.M. to 8 P.M."
 }

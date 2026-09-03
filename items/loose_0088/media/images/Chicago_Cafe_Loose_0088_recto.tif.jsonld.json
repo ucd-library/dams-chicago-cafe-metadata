@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Menu dated Monday, November 13, 1933, listing complete meals, entrees, roasts, steaks, and salads."
 }

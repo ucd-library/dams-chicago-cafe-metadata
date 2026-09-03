@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "John Fong in the Chicago Cafe kitchen, wearing a paper hat and apron, holding a cup."
 }

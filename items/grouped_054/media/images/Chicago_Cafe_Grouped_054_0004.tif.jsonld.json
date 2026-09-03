@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "04"
+  "schema:position": "04",
+  "schema:alternativeHeadline": "Handwritten wine list for The Sports Bank & Eatery, listing wines like Paul Masson Chablis and Poppy Hill Chardonnay with prices."
 }

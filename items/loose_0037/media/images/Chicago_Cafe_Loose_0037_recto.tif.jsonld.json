@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Cafe menu dated September 27, 1942, listing daily specials, roasts, steaks, and salads."
 }

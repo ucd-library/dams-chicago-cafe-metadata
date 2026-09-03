@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Menu for a 50c Special Dinner listing soup, salad, entrees, vegetables, desserts, and drinks."
 }

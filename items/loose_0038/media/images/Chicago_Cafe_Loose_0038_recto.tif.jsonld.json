@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Handwritten menu listing dishes like ox tail, sour crout, and meat ball spaghetti with Chinese characters."
 }

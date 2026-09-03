@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Newspaper clipping titled \"75 years ago, 1911\" compiled by Shipley Walters, featuring an article about Hop Gee purchasing the Chicago restaurant."
 }

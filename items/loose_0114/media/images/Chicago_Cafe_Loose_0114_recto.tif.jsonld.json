@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Pink Chicago Cafe meal ticket for $20, 411 Main Street, Woodland, Calif."
 }

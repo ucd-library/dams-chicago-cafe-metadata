@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "A bridge with lights across a bay at dusk, viewed from a hillside with trees and a railing in the foreground."
 }

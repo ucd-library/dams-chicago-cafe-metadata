@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "A woman in an apron stands in the kitchen of the Chicago Cafe, with pots on a stove and a shelf of eggs visible."
 }

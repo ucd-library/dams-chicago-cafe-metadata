@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "29"
+  "schema:position": "29",
+  "schema:alternativeHeadline": "Page showing a 1873 calendar comparison with Chinese dates in red and English dates in black."
 }

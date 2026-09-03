@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "15"
+  "schema:position": "15",
+  "schema:alternativeHeadline": "Woodland Restaurant order pad listing chop suey, noodles, and American dishes with handwritten items totaling $2.70."
 }

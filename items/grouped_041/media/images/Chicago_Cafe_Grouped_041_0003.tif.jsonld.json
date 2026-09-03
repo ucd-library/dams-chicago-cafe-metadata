@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "03"
+  "schema:position": "03",
+  "schema:alternativeHeadline": "Menu page listing store policies and a dessert section featuring items like fortune cookies and almond tarts."
 }

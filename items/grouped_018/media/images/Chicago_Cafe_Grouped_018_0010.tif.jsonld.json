@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "10"
+  "schema:position": "10",
+  "schema:alternativeHeadline": "Hand-drawn site plan of the Cobb block on Main St., showing the Cafe at 411 and adjacent businesses."
 }

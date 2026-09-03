@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "05"
+  "schema:position": "05",
+  "schema:alternativeHeadline": "Receipt listing numerical entries and totals, including 550.60 and 189.40."
 }

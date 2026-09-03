@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "11"
+  "schema:position": "11",
+  "schema:alternativeHeadline": "A la Carte menu listing steaks, vegetables, salads, sandwiches, and desserts."
 }

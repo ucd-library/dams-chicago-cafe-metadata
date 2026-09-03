@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "07"
+  "schema:position": "07",
+  "schema:alternativeHeadline": "Handwritten Chinese notes and receipts on a folded sheet of paper."
 }

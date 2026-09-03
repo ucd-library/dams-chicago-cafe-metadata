@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "10"
+  "schema:position": "10",
+  "schema:alternativeHeadline": "Page showing a 1854 Sino-Western calendar comparison with red Chinese characters and black English dates."
 }

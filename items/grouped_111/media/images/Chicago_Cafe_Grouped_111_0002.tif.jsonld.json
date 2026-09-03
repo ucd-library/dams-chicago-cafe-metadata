@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Newspaper article \"It's the regulars\" about the Chicago Cafe, featuring photos of the storefront and owner Paul Fong."
 }

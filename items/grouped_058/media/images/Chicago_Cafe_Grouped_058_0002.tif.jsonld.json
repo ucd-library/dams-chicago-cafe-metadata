@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Chef Sam Chinese Restaurant menu listing lunch specials and entrees like beef chow mein and fried rice."
 }

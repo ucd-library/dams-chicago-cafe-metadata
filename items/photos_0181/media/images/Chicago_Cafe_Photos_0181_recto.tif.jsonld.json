@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Three people stand at the Chicago Cafe counter; a man in a vest shakes hands with a seated woman while another man in a suit stands beside her."
 }

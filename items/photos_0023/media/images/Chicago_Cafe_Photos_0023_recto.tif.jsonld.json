@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "A group of people seated around a long table filled with food, eating and talking inside the Chicago Cafe."
 }

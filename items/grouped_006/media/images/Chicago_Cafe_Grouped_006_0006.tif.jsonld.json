@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "06"
+  "schema:position": "06",
+  "schema:alternativeHeadline": "A receipt with columns of numbers and asterisks, showing a total of 18.94."
 }

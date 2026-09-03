@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "04"
+  "schema:position": "04",
+  "schema:alternativeHeadline": "Chicago Cafe breakfast menu listing egg dishes, omelettes, and pancakes with prices."
 }

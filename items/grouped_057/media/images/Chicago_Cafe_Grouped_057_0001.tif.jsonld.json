@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Main Palace Chinese Restaurant menu listing chow mein, fried rice, and special dinners."
 }

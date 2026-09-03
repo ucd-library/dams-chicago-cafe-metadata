@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Cafe daily menu for Saturday, July 30, 1955, listing dishes like short rib beef, omelet, and roast turkey."
 }

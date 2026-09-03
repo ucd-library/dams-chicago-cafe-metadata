@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Restaurant ad in The Ilex, 1915, advertising Chop Suey and Noodles at 409 Main St."
 }

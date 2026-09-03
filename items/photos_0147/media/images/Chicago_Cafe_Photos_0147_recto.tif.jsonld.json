@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Four people stand in a row on a sidewalk in front of a corrugated metal wall and a parked car."
 }

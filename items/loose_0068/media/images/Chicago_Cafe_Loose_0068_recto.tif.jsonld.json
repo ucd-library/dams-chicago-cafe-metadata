@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Cover of a Chicago Chop Suey Cafe menu listing Chinese dishes for takeout and dining room service at 411 Main Street, Woodland, Cal."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chef Sam Chinese Restaurant menu listing pork, chicken, vegetable, and lunch special dishes with prices."
 }

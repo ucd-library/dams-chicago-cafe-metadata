@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Reverse side of a menu showing faint, reversed text bleed-through from the other side."
 }

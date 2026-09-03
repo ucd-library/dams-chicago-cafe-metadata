@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Menu page titled \"A LA CARTE\" listing sections for Spaghetti, Beef, Chicken, Pork Chops, and Lamb Chops with prices."
 }

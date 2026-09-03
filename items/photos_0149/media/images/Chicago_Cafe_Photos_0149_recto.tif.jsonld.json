@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Headshot of Nancy Guerrettaz wearing cat-eye glasses and a pearl necklace."
 }

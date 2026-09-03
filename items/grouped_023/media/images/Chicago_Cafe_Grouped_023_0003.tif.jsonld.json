@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "03"
+  "schema:position": "03",
+  "schema:alternativeHeadline": "Chicago Cafe menu page listing steaks, seafood, sandwiches, salads, and beverages with prices."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Fong's Garden Restaurant menu listing daily lunch specials and dinner entrees like seafood, beef, and chicken."
 }

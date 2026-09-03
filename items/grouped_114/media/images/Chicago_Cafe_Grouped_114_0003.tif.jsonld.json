@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "03"
+  "schema:position": "03",
+  "schema:alternativeHeadline": "Chicago Cafe menu listing fried dishes, roasts, and salads, with \"HAMBURGER SPAGHETTI\" handwritten at the top."
 }

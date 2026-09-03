@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "A group of people seated at a table laden with food, enjoying a meal inside a wood-paneled room."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Cover of a Chicago Cafe menu featuring a landscape painting and the restaurant's address, phone number, and hours."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "04"
+  "schema:position": "04",
+  "schema:alternativeHeadline": "Menu page listing sandwiches, snacks, cold drinks, and hot drinks with bilingual English and Chinese text."
 }

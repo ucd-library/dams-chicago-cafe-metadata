@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "The Chicago Cafe breakfast menu listing items like eggs and toast with prices, featuring a photo of a pagoda and the address 411 Main Street, Woodland, California."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "11"
+  "schema:position": "11",
+  "schema:alternativeHeadline": "Receipt with printed columns of numbers and totals, alongside handwritten Chinese characters and calculations."
 }

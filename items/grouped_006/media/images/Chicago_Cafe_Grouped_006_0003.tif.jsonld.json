@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "03"
+  "schema:position": "03",
+  "schema:alternativeHeadline": "Handwritten Chinese financial record listing monthly expenses and repayments from May 1949 to October 1950."
 }

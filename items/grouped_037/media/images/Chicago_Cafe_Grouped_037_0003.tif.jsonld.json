@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "03"
+  "schema:position": "03",
+  "schema:alternativeHeadline": "Chicago Cafe menu listing sections for Chow Mein, Chow Yoke, Chop Suey, Egg Foo Young, Fried Rice, Boiled Noodles, Miscellaneous, and Beverages."
 }

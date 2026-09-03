@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Peggy's Homestyle Foods menu listing daily entrees, side orders, and desserts with prices."
 }

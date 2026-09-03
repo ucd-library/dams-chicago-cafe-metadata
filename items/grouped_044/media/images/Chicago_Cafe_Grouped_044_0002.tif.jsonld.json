@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Menu page for Chinese Family Dinner featuring soup, entrees, and combination platters with prices."
 }

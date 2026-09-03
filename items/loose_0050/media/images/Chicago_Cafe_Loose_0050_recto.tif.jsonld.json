@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Cafe Christmas menu dated Dec 25, 1956, listing special dinners and entrees like roast turkey and baked short rib beef."
 }

@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "04"
+  "schema:position": "04",
+  "schema:alternativeHeadline": "Chicago Cafe breakfast menu listing items like \"Ham and Eggs\" and \"French Toast\" with prices."
 }

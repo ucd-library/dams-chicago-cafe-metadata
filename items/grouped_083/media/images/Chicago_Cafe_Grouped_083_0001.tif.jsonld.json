@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Pink menu for Fong's Garden Chinese Restaurant listing lunch and dinner specials with prices."
 }

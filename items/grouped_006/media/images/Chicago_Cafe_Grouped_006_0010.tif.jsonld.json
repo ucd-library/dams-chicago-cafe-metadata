@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "10"
+  "schema:position": "10",
+  "schema:alternativeHeadline": "Receipt with columns of numerical entries and totals, and a faint Chinese character in the upper right corner."
 }

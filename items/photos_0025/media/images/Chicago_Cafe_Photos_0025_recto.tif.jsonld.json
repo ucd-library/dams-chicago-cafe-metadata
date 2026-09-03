@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "A parade float on Main Street with children in red hats riding in a decorated truck, viewed from the Chicago Cafe."
 }

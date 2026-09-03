@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Advertisement for Chicago Restaurant featuring proprietors behind the counter, advertising Polynesian Island Dinners and American Dishes."
 }

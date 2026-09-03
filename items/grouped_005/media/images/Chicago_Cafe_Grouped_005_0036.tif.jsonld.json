@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "36"
+  "schema:position": "36",
+  "schema:alternativeHeadline": "Page showing a 1880 calendar comparison with Chinese dates in red and English dates in black."
 }

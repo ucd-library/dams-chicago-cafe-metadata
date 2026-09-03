@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Chicago Cafe daily menu for Tuesday, March 10, 1953, listing breakfast, steak, and special dinner options."
 }

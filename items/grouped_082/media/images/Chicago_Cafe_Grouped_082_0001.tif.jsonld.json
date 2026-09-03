@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Menu for Nugget Market's Chinese Kitchen listing chicken, beef, and pork dishes with prices."
 }

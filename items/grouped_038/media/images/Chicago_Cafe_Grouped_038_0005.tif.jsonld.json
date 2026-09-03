@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "05"
+  "schema:position": "05",
+  "schema:alternativeHeadline": "Menu item listing a Kaloa Polynesian Sandwich for $1.10, served with pineapple ring, banana sauteed, and French fries."
 }

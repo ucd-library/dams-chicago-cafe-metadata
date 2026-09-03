@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Chicago Cafe menu dated Tuesday 28 July 1955 listing dishes like boiled corned beef, fried oysters, and roasts."
 }

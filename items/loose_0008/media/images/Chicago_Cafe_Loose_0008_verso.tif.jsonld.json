@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "02"
+  "schema:position": "02",
+  "schema:alternativeHeadline": "Typed price list for Automobile Maintenance Logs showing quantity discounts, with faint text from the reverse side visible."
 }

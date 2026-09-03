@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "01"
+  "schema:position": "01",
+  "schema:alternativeHeadline": "Seven people standing in a line inside the Chicago Cafe, with a window sign reading \"CHICAGO CAFE\" visible behind them."
 }

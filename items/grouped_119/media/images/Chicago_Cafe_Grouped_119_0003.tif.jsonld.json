@@ -3,5 +3,6 @@
     "schema": "http://schema.org/"
   },
   "@id": "",
-  "schema:position": "03"
+  "schema:position": "03",
+  "schema:alternativeHeadline": "Canton Restaurant menu page listing Chinese dishes, noodles, chop suey, and sandwiches with handwritten prices."
 }
