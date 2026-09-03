@@ -29,6 +29,7 @@
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
   "schema:description": "Photo postcard. Yu Fong, first row on the left, sits next to her son Paul Fong and other family members in southern China. Circa 1957.",
+  "schema:datePublished": "1957~",
   "schema:temporal": "Undated",
   "schema:about": [
     {

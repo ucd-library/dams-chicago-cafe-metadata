@@ -29,6 +29,7 @@
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
   "schema:description": "John Fong's travel documents. Circa 1948.",
+  "schema:datePublished": "1948~",
   "schema:about": [
     {
       "@id": "http://id.worldcat.org/fast/1061684"

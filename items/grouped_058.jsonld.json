@@ -31,6 +31,7 @@
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
   "schema:description": "Circa 1968 - 1997",
+  "schema:datePublished": "1968/1997",
   "schema:about": [
     {
       "@id": "http://id.worldcat.org/fast/1016875"

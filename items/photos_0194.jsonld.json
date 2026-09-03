@@ -30,6 +30,7 @@
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
   "schema:description": "Inscriptions, including \"To Johnny from a friend Juanita\". Circa 1950s.",
+  "schema:datePublished": "195X",
   "schema:temporal": "Undated",
   "schema:about": [
     {

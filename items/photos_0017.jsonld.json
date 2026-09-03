@@ -29,6 +29,7 @@
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
   "schema:description": "John and Yu Fong, the second generation owners of the Chicago Cafe, presumably around the time of their engagement or wedding, 1940s.",
+  "schema:datePublished": "194X",
   "schema:about": [
     {
       "@id": "http://id.worldcat.org/fast/1061684"

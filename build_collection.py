@@ -83,6 +83,171 @@ FACET_OVERRIDES = {
     "photos_0187": [CT_EPHEMERA],  # 1953 PRC banknote (Kevin, 2026-08-28)
 }
 
+# EDTF (LOC level 0/1) dates for "Undated" items whose range/circa info lives in
+# the Description column — the deferred pass, enabled by DAMS fuzzy-date support
+# (ucd-library/dams#152, merged 2026-09-02). Emitted as plain-string
+# schema:datePublished; the item transform parses EDTF and falls back to the
+# first 4-digit year on older clients. Review sheet: drafts/edtf-dates.csv.
+# "After 1997" items use 1997/2025 (the cafe closed in 2025).
+EDTF_DATES = {
+    'grouped_020': '1956/1968',
+    'grouped_022': '2010~',
+    'grouped_023': '1997/2010',
+    'grouped_024': '1997/2010',
+    'grouped_029': '2005/2010',
+    'grouped_030': '2005/2010',
+    'grouped_031': '1997/2010',
+    'grouped_032': '1997/2010',
+    'grouped_033': '1997/2010',
+    'grouped_034': '2010/2015',
+    'grouped_035': '2010/2015',
+    'grouped_036': '2010/2015',
+    'grouped_037': '1956/1968',
+    'grouped_039': '195X',
+    'grouped_041': '195X',
+    'grouped_043': '195X',
+    'grouped_044': '195X',
+    'grouped_045': '1956/1968',
+    'grouped_046': '1956/1968',
+    'grouped_050': '2020/2025',
+    'grouped_053': '1968/1997',
+    'grouped_057': '1997/2025',
+    'grouped_058': '1968/1997',
+    'grouped_059': '1997/2025',
+    'grouped_060': '1997/2025',
+    'grouped_065': '199X',
+    'grouped_067': '1968/1997',
+    'grouped_070': '1965~',
+    'grouped_071': '1968/1997',
+    'grouped_072': '1997/2025',
+    'grouped_074': '1968/1997',
+    'grouped_075': '1997/2025',
+    'grouped_078': '1968/1997',
+    'grouped_079': '1968/1997',
+    'grouped_082': '1989~',
+    'grouped_083': '1968/1997',
+    'grouped_086': '1968/1997',
+    'grouped_092': '1997/2010',
+    'grouped_093': '2020/2025',
+    'grouped_097': '1963~',
+    'grouped_098': '1963~',
+    'grouped_100': '1963~',
+    'grouped_118': '192X/194X',
+    'grouped_123': '1953/1955',
+    'loose_0003': '192X/194X',
+    'loose_0068': '192X/194X',
+    'loose_0080': '1959?',
+    'loose_0094': '192X/194X',
+    'loose_0114': '1953/1955',
+    'loose_0115': '1953/1955',
+    'loose_0116': '1953/1955',
+    'photos_0006': '194X',
+    'photos_0013': '195X',
+    'photos_0015': '1935~',
+    'photos_0018': '1935~',
+    'photos_0019': '194X',
+    'photos_0022': '196X',
+    'photos_0024': '196X',
+    'photos_0025': '196X',
+    'photos_0028': '196X',
+    'photos_0029': '196X',
+    'photos_0031': '196X',
+    'photos_0032': '196X',
+    'photos_0033': '196X',
+    'photos_0038': '196X',
+    'photos_0040': '196X',
+    'photos_0050': '195X',
+    'photos_0051': '195X',
+    'photos_0053': '195X',
+    'photos_0054': '195X',
+    'photos_0055': '195X',
+    'photos_0059': '195X',
+    'photos_0069': '195X/196X',
+    'photos_0071': '1957~',
+    'photos_0074': '196X',
+    'photos_0075': '195X/196X',
+    'photos_0076': '195X/196X',
+    'photos_0081': '1948~',
+    'photos_0082': '1948~',
+    'photos_0083': '1948~',
+    'photos_0085': '195X/196X',
+    'photos_0086': '195X',
+    'photos_0087': '1949~',
+    'photos_0088': '195X/196X',
+    'photos_0089': '195X/196X',
+    'photos_0093': '196X',
+    'photos_0120': '195X/196X',
+    'photos_0121': '195X',
+    'photos_0122': '195X',
+    'photos_0123': '195X',
+    'photos_0124': '195X',
+    'photos_0132': '195X/196X',
+    'photos_0148': '195X',
+    'photos_0149': '195X',
+    'photos_0151': '195X',
+    'photos_0153': '195X',
+    'photos_0154': '195X',
+    'photos_0155': '195X',
+    'photos_0156': '195X',
+    'photos_0157': '195X',
+    'photos_0158': '195X',
+    'photos_0159': '195X',
+    'photos_0160': '195X',
+    'photos_0161': '195X',
+    'photos_0162': '195X',
+    'photos_0163': '195X',
+    'photos_0166': '195X',
+    'photos_0167': '195X',
+    'photos_0168': '195X',
+    'photos_0169': '195X',
+    'photos_0171': '195X',
+    'photos_0172': '195X',
+    'photos_0173': '195X',
+    'photos_0174': '195X',
+    'photos_0175': '195X',
+    'photos_0176': '195X',
+    'photos_0178': '195X/196X',
+    'photos_0179': '195X/196X',
+    'photos_0180': '195X/196X',
+    'photos_0183': '195X/196X',
+    'photos_0184': '195X/196X',
+    'photos_0189': '195X',
+    'photos_0190': '195X',
+    'photos_0191': '195X',
+    'photos_0192': '195X',
+    'photos_0193': '195X',
+    'photos_0194': '195X',
+    'photos_0195': '195X',
+    'photos_0196': '195X',
+    'photos_0198': '195X',
+    'photos_0199': '195X',
+    'photos_0202': '195X',
+    'photos_0203': '195X',
+    'photos_0204': '195X',
+    'photos_0205': '195X',
+    'photos_0208': '195X',
+    'photos_0209': '195X',
+    'photos_0210': '195X',
+    'photos_0211': '195X',
+    'photos_0212': '195X',
+    'photos_0213': '195X',
+    'photos_0214': '195X',
+    'photos_0216': '195X',
+    'photos_0217': '195X',
+    'photos_0219': '195X',
+    'grouped_120': '192X/194X',
+    'photos_0017': '194X',
+    'photos_0215': '194X',
+}
+
+# Items whose description gives an explicit likely span around a circa year
+# ("Circa 1963, and likely between 1959 and 1968"): ±N year search widening.
+EDTF_UNCERTAINTY_YEARS = {
+    "grouped_097": 5,
+    "grouped_098": 5,
+    "grouped_100": 5,
+}
+
 
 def load_manifest():
     """Return dict: set_name -> sorted list of relative tif paths."""
@@ -161,6 +326,12 @@ def parse_date(date_raw):
         return XSD + "gYearMonth", f"{m.group(2)}-{int(m.group(1)):02d}"
     if re.fullmatch(r"\d{4}", d):
         return XSD + "gYear", d
+    m = re.fullmatch(r"(\d{3})0s\s*[-\u2013]\s*(\d{3})0s", d)
+    if m:  # "1920s - 1940s" -> EDTF decade span
+        return "EDTF", f"{m.group(1)}X/{m.group(2)}X"
+    m = re.fullmatch(r"(\d{3})0s", d)
+    if m:  # "1980s" -> EDTF decade
+        return "EDTF", f"{m.group(1)}X"
     year = extract_year(d)
     if year:
         return XSD + "gYear", year
@@ -235,8 +406,14 @@ def build_item(item_id, title, item_type, tif_relpaths, date_raw, description, c
         node["schema:description"] = description.strip()
 
     dtype, dval = parse_date(date_raw)
+    if item_id in EDTF_DATES:
+        dtype, dval = "EDTF", EDTF_DATES[item_id]
     if dval:
-        node["schema:datePublished"] = {"@type": dtype, "@value": dval}
+        # EDTF expressions ("192X/194X") are not valid XSD values — plain string
+        node["schema:datePublished"] = (dval if dtype == "EDTF"
+                                        else {"@type": dtype, "@value": dval})
+    if item_id in EDTF_UNCERTAINTY_YEARS:
+        node["ucdlib:dateUncertaintyYears"] = EDTF_UNCERTAINTY_YEARS[item_id]
     if date_raw and date_raw.strip():
         node["schema:temporal"] = date_raw.strip()
 
@@ -354,6 +531,16 @@ def main():
         write_json(items_root / item_id / "media.jsonld.json", media_container())
         write_json(items_root / item_id / "media" / "images.jsonld.json", image_list_container())
         for dest, obj in sidecars:
+            # Preserve Title II alt text (digtk alt run writes it onto these
+            # sidecars); a rebuild must never drop it.
+            existing = REPO / dest
+            if existing.exists():
+                try:
+                    alt = json.loads(existing.read_text()).get("schema:alternativeHeadline")
+                except (ValueError, OSError):
+                    alt = None
+                if alt and "schema:alternativeHeadline" not in obj:
+                    obj["schema:alternativeHeadline"] = alt
             write_json(REPO / dest, obj)
 
     # ---- Collection node ----

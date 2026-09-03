@@ -30,6 +30,7 @@
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
   "schema:description": "Inscription on recto to Johnny. Circa 1950s.",
+  "schema:datePublished": "195X",
   "schema:temporal": "Undated",
   "schema:about": [
     {
