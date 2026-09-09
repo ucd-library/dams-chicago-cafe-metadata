@@ -15,11 +15,16 @@
     "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
   "schema:name": "English-Chinese dictionary signed Kwong Ming Chin",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_DO_0004.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Grouped_016_0001.tif"
+    "@id": "@base:/media/images/D-822_DO_0004_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d32j68f5d",

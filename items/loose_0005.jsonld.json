@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Grocer's business card with handwritten notes",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_004_0002.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0005_recto.tif"
+    "@id": "@base:/media/images/D-822_001_004_0002_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d34t6fd3f",

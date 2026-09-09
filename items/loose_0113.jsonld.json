@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Photo of The Ilex (Woodland High School) cover",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_DO_0017.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0113_recto.tif"
+    "@id": "@base:/media/images/D-822_DO_0017_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3n01042g",

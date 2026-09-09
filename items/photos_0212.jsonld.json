@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Graduation card reading Juanita Payan",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_015_0073.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Photos_0212_recto.tif"
+    "@id": "@base:/media/images/D-822_001_015_0073_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3np1wv2j",

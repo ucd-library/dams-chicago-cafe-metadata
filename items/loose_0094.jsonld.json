@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Partial Chicago Cafe menu: China Dishes",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_010_0004.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0094_recto.tif"
+    "@id": "@base:/media/images/D-822_001_010_0004_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3z892r4x",

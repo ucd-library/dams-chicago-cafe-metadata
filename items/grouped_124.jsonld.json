@@ -15,11 +15,16 @@
     "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
   "schema:name": "Sun Hong Kong Restaurant (Berkeley, CA) menu",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_024_0026.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Grouped_124_0001.tif"
+    "@id": "@base:/media/images/D-822_001_024_0026_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3z02zk41",

@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Letter addressed to Ben from Mexicali, Mexico",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_017_0027.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Photos_0060_recto.tif"
+    "@id": "@base:/media/images/D-822_001_017_0027_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3x921v47",

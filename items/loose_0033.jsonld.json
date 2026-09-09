@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Chicago Restaurant menu",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_008_0022.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0033_recto.tif"
+    "@id": "@base:/media/images/D-822_001_008_0022_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d32z13067",

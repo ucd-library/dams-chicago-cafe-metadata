@@ -248,6 +248,43 @@ EDTF_UNCERTAINTY_YEARS = {
     "grouped_100": 5,
 }
 
+# ---- File renaming (Kevin-approved convention, Sept 2026) ----
+# arks/rename_map.json: item_id -> "D-822_<box:3>_<folder:3>_<item:4>" (or D-822_DO_####).
+# Page files become <newbase>_<page:04d>.tif (recto->_0001, verso->_0002, multi-page
+# by position). Masters keep scan-time names; stage_binaries.py bridges via
+# arks/file_rename_map.json (old basename -> new basename), which this build emits.
+# An empty/missing map = no renaming (dev-era behavior).
+try:
+    RENAME_MAP = json.loads((Path(__file__).resolve().parent / "arks" / "rename_map.json").read_text())
+except FileNotFoundError:
+    RENAME_MAP = {}
+
+# The 46 split bifold menus: masters_manifest.txt still lists their PRE-SPLIT 3-page
+# scans; the real 4-page lists (cover / inside-left / inside-right / back, June 2026
+# split) live here. Also the reason a full-tree binary import from masters is
+# forbidden: for these items, same old filenames = different (pre-split) pixels.
+try:
+    PAGE_OVERRIDES = json.loads((Path(__file__).resolve().parent / "arks" / "page_overrides.json").read_text())
+except FileNotFoundError:
+    PAGE_OVERRIDES = {}
+FILE_RENAMES = {}   # old tif basename -> new tif basename (filled during build)
+OLD_SIDECAR_FOR = {}  # new sidecar repo-relpath (str) -> old sidecar repo-relpath (str)
+
+# UA-1 tagged PDFs (digtk docs batch) to attach as downloadable media, by item id.
+PDF_SRC = Path.home() / "code" / "chicago-cafe-deliverables" / "tagged-pdf"
+
+
+def pdf_sidecar(filename):
+    """Sidecar for an attached tagged PDF (pattern proven on the AI collection:
+    these @types trigger pdf-image-products; mime keeps it out of image logic)."""
+    return {
+        "@context": CONTEXT, "@id": "",
+        "@type": ["schema:ImageObject", "schema:CreativeWork", "schema:MediaObject"],
+        "schema:associatedMedia": {"@id": "@base:../images"},
+        "ebucore:filename": filename,
+        "ebucore:hasMimeType": "application/pdf",
+    }
+
 
 def load_manifest():
     """Return dict: set_name -> sorted list of relative tif paths."""
@@ -379,7 +416,15 @@ def build_item(item_id, title, item_type, tif_relpaths, date_raw, description, c
     Returns (item_node, list_of_(dest_relpath_in_repo, sidecar_obj), first_image_basename)."""
     images_dir = Path("items") / item_id / "media" / "images"
     sidecars = []
-    basenames = [Path(p).name for p in tif_relpaths]
+    old_basenames = PAGE_OVERRIDES.get(item_id) or [Path(p).name for p in tif_relpaths]
+    newbase = RENAME_MAP.get(item_id)
+    if newbase:
+        basenames = [f"{newbase}_{i:04d}.tif" for i in range(1, len(old_basenames) + 1)]
+        for ob, nb in zip(old_basenames, basenames):
+            FILE_RENAMES[ob] = nb
+            OLD_SIDECAR_FOR[str(images_dir / f"{nb}.jsonld.json")] = str(images_dir / f"{ob}.jsonld.json")
+    else:
+        basenames = old_basenames
     for i, bn in enumerate(basenames, start=1):
         sidecars.append((images_dir / f"{bn}.jsonld.json", tif_sidecar(f"{i:02d}")))
 
@@ -391,7 +436,13 @@ def build_item(item_id, title, item_type, tif_relpaths, date_raw, description, c
         node["@type"] = ["schema:CreativeWork", "schema:ImageObject"]
 
     node["schema:name"] = title
-    node["schema:associatedMedia"] = {"@id": "@base:/media/images"}
+    assoc = [{"@id": "@base:/media/images"}]
+    if newbase and (PDF_SRC / f"{item_id}.pdf").exists():
+        pdf_name = f"{newbase}.pdf"
+        assoc.append({"@id": f"@base:/media/{pdf_name}"})
+        sidecars.append((Path("items") / item_id / "media" / f"{pdf_name}.jsonld.json",
+                         pdf_sidecar(pdf_name)))
+    node["schema:associatedMedia"] = assoc if len(assoc) > 1 else assoc[0]
     if basenames:
         node["schema:image"] = {"@id": f"@base:/media/images/{basenames[0]}"}
 
@@ -534,6 +585,8 @@ def main():
             # Preserve Title II alt text (digtk alt run writes it onto these
             # sidecars); a rebuild must never drop it.
             existing = REPO / dest
+            if not existing.exists() and str(dest) in OLD_SIDECAR_FOR:
+                existing = REPO / OLD_SIDECAR_FOR[str(dest)]
             if existing.exists():
                 try:
                     alt = json.loads(existing.read_text()).get("schema:alternativeHeadline")
@@ -542,6 +595,9 @@ def main():
                 if alt and "schema:alternativeHeadline" not in obj:
                     obj["schema:alternativeHeadline"] = alt
             write_json(REPO / dest, obj)
+
+    if FILE_RENAMES:
+        write_json(REPO / "arks" / "file_rename_map.json", dict(sorted(FILE_RENAMES.items())))
 
     # ---- Collection node ----
     # The collection node is hand-maintained (Fong-family description, curated

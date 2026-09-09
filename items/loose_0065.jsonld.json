@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Generic menu",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_008_0054.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0065_recto.tif"
+    "@id": "@base:/media/images/D-822_001_008_0054_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d34q7r123",

@@ -15,11 +15,16 @@
     "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
   "schema:name": "Daily Democrat issue including article about Paul and John Fong, owners of the Chicago Cafe",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_003_006_0004.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Grouped_110_0001.tif"
+    "@id": "@base:/media/images/D-822_003_006_0004_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3639kg21",

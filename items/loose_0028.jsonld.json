@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Menu clipping from unidentified restaurant",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_008_0020.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0028_recto.tif"
+    "@id": "@base:/media/images/D-822_001_008_0020_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3tx35h3k",

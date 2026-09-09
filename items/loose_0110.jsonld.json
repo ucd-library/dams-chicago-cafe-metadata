@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Photo detail of Chicago Restaurant ad in The Ilex (Woodland High School)",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_DO_0014.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0110_recto.tif"
+    "@id": "@base:/media/images/D-822_DO_0014_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d39w0986d",

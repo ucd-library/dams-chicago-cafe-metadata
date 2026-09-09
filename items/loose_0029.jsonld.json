@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Handwritten notes in Chinese listing dates, mostly 1940s, possibly related to immigration",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_DO_0008.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0029_recto.tif"
+    "@id": "@base:/media/images/D-822_DO_0008_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3jm23s0x",

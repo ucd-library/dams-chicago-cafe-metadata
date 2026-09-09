@@ -15,11 +15,16 @@
     "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
   "schema:name": "China Kitchen (Woodland, CA) menu",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_021_0008.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Grouped_043_0001.tif"
+    "@id": "@base:/media/images/D-822_001_021_0008_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d38s4k04b",

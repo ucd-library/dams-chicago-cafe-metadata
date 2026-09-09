@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Unidentified menu (likely Chicago Cafe)",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_023_0011.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0107_recto.tif"
+    "@id": "@base:/media/images/D-822_001_023_0011_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3rf5kr8d",

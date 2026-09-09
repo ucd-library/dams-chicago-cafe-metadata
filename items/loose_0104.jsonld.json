@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Envelope addressed from Wing Yet to Hon Hing Lung",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_007_0012.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0104_recto.tif"
+    "@id": "@base:/media/images/D-822_001_007_0012_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d30v89t2j",

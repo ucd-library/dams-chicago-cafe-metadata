@@ -15,11 +15,16 @@
     "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
   "schema:name": "Blank pad of generic daily special displays",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_007_0002.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Grouped_013_0001.tif"
+    "@id": "@base:/media/images/D-822_001_007_0002_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3zk55x3h",

@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Partly typed partly handwritten menu or list of dishes",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_008_0027.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0038_recto.tif"
+    "@id": "@base:/media/images/D-822_001_008_0027_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3v40k89j",

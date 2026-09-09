@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Document with Auto part prices on one side and info about law making and the powers of Congress on the other",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_004_0005.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0008_recto.tif"
+    "@id": "@base:/media/images/D-822_001_004_0005_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3348gs3b",

@@ -15,11 +15,16 @@
     "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
   "schema:name": "Car insurance policy for John C. Yee",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_010_0002.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Grouped_007_0001.tif"
+    "@id": "@base:/media/images/D-822_001_010_0002_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3c24qz1s",

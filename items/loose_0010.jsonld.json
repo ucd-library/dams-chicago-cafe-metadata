@@ -14,11 +14,16 @@
     "schema:ImageObject"
   ],
   "schema:name": "Clipping with Casa Nello's ad and menu",
-  "schema:associatedMedia": {
-    "@id": "@base:/media/images"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/D-822_001_004_0007.pdf"
+    }
+  ],
   "schema:image": {
-    "@id": "@base:/media/images/Chicago_Cafe_Loose_0010_recto.tif"
+    "@id": "@base:/media/images/D-822_001_004_0007_0001.tif"
   },
   "schema:identifier": [
     "ark:/87293/d3k64b375",
