@@ -48,6 +48,12 @@ This repo built the "Chicago Cafe Records" collection on dev DAMS
 - Item-count updates come via reindex; ES docs for DELETED items may linger (open issue
   with Dusty as of 2026-08-21, see SESSION_STATUS.md).
 
+## Saved-search links in descriptions
+Descriptions render markdown links. A collection-scoped subject search is
+`/search//<urlencoded JSON>//20/` where the JSON is
+`[["@graph.isPartOf.@id","or","/collection/ark:/..."],["@graph.subjects.name","or","Menus"]]`
+(see the Chicago Cafe collection node). Use relative URLs so they survive dev → prod.
+
 ## Dates
 `schema:datePublished` gets the most precise XSD type the source allows (`xsd:date`,
 `gYearMonth`, `gYear` — see `parse_date`); raw string preserved in `schema:temporal`;

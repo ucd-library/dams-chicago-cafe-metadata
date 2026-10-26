@@ -1,0 +1,149 @@
+item_id,csv_date,description,edtf,note
+grouped_020,Undated,1956 - 1968,1956/1968,from description: '1956 - 1968'
+grouped_022,,Circa 2010,2010~,from description: 'Circa 2010'
+grouped_023,,Circa 1997 - 2010,1997/2010,from description: 'Circa 1997 - 2010'
+grouped_024,,Circa 1997 - 2010,1997/2010,from description: 'Circa 1997 - 2010'
+grouped_029,,Circa 2005 - 2010,2005/2010,from description: 'Circa 2005 - 2010'
+grouped_030,,Circa 2005 - 2010,2005/2010,from description: 'Circa 2005 - 2010'
+grouped_031,,Circa 1997 - 2010,1997/2010,from description: 'Circa 1997 - 2010'
+grouped_032,,Circa 1997 - 2010,1997/2010,from description: 'Circa 1997 - 2010'
+grouped_033,,Circa 1997 - 2010,1997/2010,from description: 'Circa 1997 - 2010'
+grouped_034,,Circa 2010 - 2015,2010/2015,from description: 'Circa 2010 - 2015'
+grouped_035,,Circa 2010 - 2015,2010/2015,from description: 'Circa 2010 - 2015'
+grouped_036,,Circa 2010 - 2015,2010/2015,from description: 'Circa 2010 - 2015'
+grouped_037,,Circa 1956-1968,1956/1968,from description: 'Circa 1956-1968'
+grouped_039,,1950s,195X,from description: '1950s'
+grouped_041,Undated,1950s,195X,from description: '1950s'
+grouped_043,Undated,1950s,195X,from description: '1950s'
+grouped_044,,1950s,195X,from description: '1950s'
+grouped_045,,Circa 1956 - 1968,1956/1968,from description: 'Circa 1956 - 1968'
+grouped_046,,Circa 1956 - 1968,1956/1968,from description: 'Circa 1956 - 1968'
+grouped_050,,Circa 2020 - 2025,2020/2025,from description: 'Circa 2020 - 2025'
+grouped_053,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_057,,After 1997,1997/2025,"""After 1997""; closed end = cafe closure 2025"
+grouped_058,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_059,,After 1997,1997/2025,"""After 1997"""
+grouped_060,,After 1997,1997/2025,"""After 1997"""
+grouped_065,,1990s,199X,from description: '1990s'
+grouped_067,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_070,,Circa mid-1960s,1965~,"""Circa mid-1960s"""
+grouped_071,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_072,,After 1997,1997/2025,"""After 1997"""
+grouped_074,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_075,,After 1997,1997/2025,"""After 1997"""
+grouped_078,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_079,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_082,Undated,"Featuring Ladd Wong, Head Chinese Chef. Circa 1989.",1989~,"""Circa 1989"""
+grouped_083,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_086,,Circa 1968 - 1997,1968/1997,from description: 'Circa 1968 - 1997'
+grouped_092,,Circa 1997 - 2010,1997/2010,from description: 'Circa 1997 - 2010'
+grouped_093,,Circa 2020 - 2025,2020/2025,from description: 'Circa 2020 - 2025'
+grouped_097,,"Circa 1963, and likely between 1959 and 1968.",1963~,"""Circa 1963, likely 1959-1968"" + uncertainty 5"
+grouped_098,,"Circa 1963, and likely between 1959 and 1968.",1963~,same
+grouped_100,,"Circa 1963, and likely between 1959 and 1968.",1963~,same
+grouped_118,Undated,"Chicago Cafe menu from the inter-war period, 1920 to the 1940s. Date based on phone number and address.",192X/194X,"""inter-war period, 1920 to the 1940s"""
+grouped_120,Undated,Circa 1920 - 1940s.,,UNMAPPED: 'Circa 1920 - 1940s.'
+grouped_123,Undated,Circa 1953 - 1955,1953/1955,from description: 'Circa 1953 - 1955'
+loose_0003,,"Chicago Cafe menu from the 1920s - 1940s, based on address and phone number.",192X/194X,"from description: 'Chicago Cafe menu from the 1920s - 1940s, based on address a'"
+loose_0068,Undated,"Early Chicago Cafe menu, from the 1920s - 1940s, based on the address and phone number.",192X/194X,"from description: 'Early Chicago Cafe menu, from the 1920s - 1940s, based on th'"
+loose_0080,,"Probably 1959, but possibly 1953.",1959?,"""Probably 1959, but possibly 1953"""
+loose_0094,,1920s - 1940s.,192X/194X,from description: '1920s - 1940s.'
+loose_0114,,Probably early 1950s (1953 - 1955) based on phone number,1953/1955,from description: 'Probably early 1950s (1953 - 1955) based on phone number'
+loose_0115,,Probably early 1950s (1953 - 1955) based on phone number,1953/1955,from description: 'Probably early 1950s (1953 - 1955) based on phone number'
+loose_0116,,Probably early 1950s (1953 - 1955) based on phone number,1953/1955,from description: 'Probably early 1950s (1953 - 1955) based on phone number'
+photos_0006,,Circa 1940s,194X,from description: 'Circa 1940s'
+photos_0013,,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0015,,Mid 1930s.,1935~,"""Mid 1930s"""
+photos_0017,,"John and Yu Fong, the second generation owners of the Chicago Cafe, presumably around the time of their engagement or wedding, 1940s.",,"UNMAPPED: 'John and Yu Fong, the second generation owners of the Chicago Cafe, presumably a'"
+photos_0018,,Mid 1930s,1935~,"""Mid 1930s"""
+photos_0019,,Circa 1940s,194X,from description: 'Circa 1940s'
+photos_0022,Undated,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0024,Undated,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0025,,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0028,Undated,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0029,Undated,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0031,,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0032,,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0033,,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0038,Undated,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0040,Undated,Circa 1960s,196X,from description: 'Circa 1960s'
+photos_0050,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0051,Undated,Early 1950s,195X,from description: 'Early 1950s'
+photos_0053,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0054,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0055,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0059,Undated,"Handwritten on verso: ""To a real nice guy and a good looking one, Glenna Dickie"". Circa 1950s.",195X,"from description: 'Handwritten on verso: ""To a real nice guy and a good looking'"
+photos_0069,Undated,Chinese writing on verso. Circa 1950s - 1960s.,195X/196X,from description: 'Chinese writing on verso. Circa 1950s - 1960s.'
+photos_0071,Undated,"Photo postcard. Yu Fong, first row on the left, sits next to her son Paul Fong and other family members in southern China. Circa 1957.",1957~,"from description: 'Photo postcard. Yu Fong, first row on the left, sits next to'"
+photos_0074,Undated,Circa 1960d,196X,"""Circa 1960d"" (typo for 1960s)"
+photos_0075,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0076,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0081,,John Fong immigrated to the U.S. in 1948 to carry on the family business running the Chicago Cafe. Passport bears the name Yee Chun Pong. Handwritten note on verso. Circa 1948.,1948~,from description: 'John Fong immigrated to the U.S. in 1948 to carry on the fam'
+photos_0082,,John Fong's travel documents. Circa 1948.,1948~,"from description: ""John Fong's travel documents. Circa 1948."""
+photos_0083,,John Fong immigrated to the U.S. in 1948 to carry on the family business running the Chicago Cafe. Circa 1948.,1948~,from description: 'John Fong immigrated to the U.S. in 1948 to carry on the fam'
+photos_0085,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0086,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0087,,"Group photo including Yu Fong (center right) holding Paul Fong, with David Fong to the left. Chinese writing on verso. Circa 1949.",1949~,from description: 'Group photo including Yu Fong (center right) holding Paul Fo'
+photos_0088,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0089,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0093,Undated,Early 1960s,196X,from description: 'Early 1960s'
+photos_0120,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0121,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0122,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0123,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0124,Undated,Partial name on verso. Circa 1950s.,195X,from description: 'Partial name on verso. Circa 1950s.'
+photos_0132,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0148,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0149,Undated,Handwritten note on verso. Circa 1950s.,195X,from description: 'Handwritten note on verso. Circa 1950s.'
+photos_0151,Undated,"Handwritten on verso: ""Darleen holding Mary-Ann"". Circa 1950s.",195X,"from description: 'Handwritten on verso: ""Darleen holding Mary-Ann"". Circa 1950'"
+photos_0153,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0154,Undated,Handwritten note on verso. Circa 1950s.,195X,from description: 'Handwritten note on verso. Circa 1950s.'
+photos_0155,Undated,"Handwritten note on verso and recto, includes names Yolanda and Ofelia. Circa 1950s.",195X,"from description: 'Handwritten note on verso and recto, includes names Yolanda '"
+photos_0156,Undated,"Handwritten on verso: ""Front: Pat Keeton, Back L - R: Maurine W., Joan Moore, Barb Teauscher, Georgia Yourbrough."" Circa 1950s.",195X,"from description: 'Handwritten on verso: ""Front: Pat Keeton, Back L - R: Maurin'"
+photos_0157,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0158,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0159,Undated,The car is likely a 1951 Chevrolet Deluxe convertible. Circa 1950s.,195X,from description: 'The car is likely a 1951 Chevrolet Deluxe convertible. Circa'
+photos_0160,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0161,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0162,Undated,"Recto inscription ""To Johnny, Rosie Rios, Margie Sandoval."" Circa 1950s.",195X,"from description: 'Recto inscription ""To Johnny, Rosie Rios, Margie Sandoval."" '"
+photos_0163,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0166,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0167,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0168,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0169,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0171,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0172,Undated,"Handwritten recto inscription: ""To Johnny, from Robin Johnson"". Handwritten inscription on verso. Circa 1950s.",195X,"from description: 'Handwritten recto inscription: ""To Johnny, from Robin Johnso'"
+photos_0173,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0174,Undated,Inscriptions on recto and verso: Maria / Merry Hernandez. Circa 1950s.,195X,from description: 'Inscriptions on recto and verso: Maria / Merry Hernandez. Ci'
+photos_0175,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0176,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0178,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0179,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0180,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0183,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0184,Undated,Circa 1950s - 1960s,195X/196X,from description: 'Circa 1950s - 1960s'
+photos_0189,Undated,Handwritten name on verso. Circa 1950s.,195X,from description: 'Handwritten name on verso. Circa 1950s.'
+photos_0190,Undated,"Handwritten inscription ""To Johnny, from a pal"". Circa 1950s.",195X,"from description: 'Handwritten inscription ""To Johnny, from a pal"". Circa 1950s'"
+photos_0191,Undated,Handwritten inscription to Johnny on recto. Circa 1950s.,195X,from description: 'Handwritten inscription to Johnny on recto. Circa 1950s.'
+photos_0192,Undated,Handwritten name on recto. Circa 1950s.,195X,from description: 'Handwritten name on recto. Circa 1950s.'
+photos_0193,Undated,"Handwritten recto inscription: ""To a good friend Johnny, Robin Johnson"". Circa 1950s.",195X,"from description: 'Handwritten recto inscription: ""To a good friend Johnny, Rob'"
+photos_0194,Undated,"Inscriptions, including ""To Johnny from a friend Juanita"". Circa 1950s.",195X,"from description: 'Inscriptions, including ""To Johnny from a friend Juanita"". C'"
+photos_0195,Undated,"Inscription on verso ""To a nice guy Johnny from a friend Polly"". Circa 1950s.",195X,"from description: 'Inscription on verso ""To a nice guy Johnny from a friend Pol'"
+photos_0196,Undated,Inscription on verso. Circa 1950s.,195X,from description: 'Inscription on verso. Circa 1950s.'
+photos_0198,Undated,Inscription on verso. Circa 1950s.,195X,from description: 'Inscription on verso. Circa 1950s.'
+photos_0199,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0202,Undated,"Inscription on recto: ""To Johnny, from Alice Flores, a friend always"". Circa 1950s.",195X,"from description: 'Inscription on recto: ""To Johnny, from Alice Flores, a frien'"
+photos_0203,Undated,"Inscription on recto: ""A nice guy, Johnny. From Robin"". Circa 1950s.",195X,"from description: 'Inscription on recto: ""A nice guy, Johnny. From Robin"". Circ'"
+photos_0204,Undated,"Inscriptions on recto and verso, including ""To Johnny, from Gloria, Vivian, and Barbara, a friend always"". Circa 1950s.",195X,"from description: 'Inscriptions on recto and verso, including ""To Johnny, from '"
+photos_0205,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0208,Undated,"Inscription on verso: ""From an old customer Betty Holyfield, to Johnny"". Circa 1950s.",195X,"from description: 'Inscription on verso: ""From an old customer Betty Holyfield,'"
+photos_0209,Undated,"Inscription on verso: ""To Johnny from one of your customer, Janet Mengis"". Circa 1950s.",195X,"from description: 'Inscription on verso: ""To Johnny from one of your customer, '"
+photos_0210,Undated,"Inscription on verso: ""To Johnny, a real nice guy, lots of luck, Juanita"" [may be Juanita Payan]. Circa 1950s.",195X,"from description: 'Inscription on verso: ""To Johnny, a real nice guy, lots of l'"
+photos_0211,Undated,Inscription on verso to Johnny from Paula. Circa 1950s.,195X,from description: 'Inscription on verso to Johnny from Paula. Circa 1950s.'
+photos_0212,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0213,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0214,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0215,,"John and Yu Fong, the second generation owners of the Chicago Cafe, presumably around the time of their engagement or wedding, 1940s.",,"UNMAPPED: 'John and Yu Fong, the second generation owners of the Chicago Cafe, presumably a'"
+photos_0216,Undated,Inscription on recto to Johnny. Circa 1950s.,195X,from description: 'Inscription on recto to Johnny. Circa 1950s.'
+photos_0217,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
+photos_0219,Undated,Circa 1950s,195X,from description: 'Circa 1950s'
