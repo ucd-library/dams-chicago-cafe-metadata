@@ -3,6 +3,33 @@
 Dev DAMS: https://dev.dams.library.ucdavis.edu/ · Collection ARK `ark:/87293/d30c4sv8b`
 GitHub: `ucd-library/dams-chicago-cafe-metadata` (metadata only)
 
+
+## PROD PUBLISH (2026-10-26) — staged, waiting on bucket folder
+
+Prod import path = DAMS `collection-import/import.sh`: Dusty's job clones this repo's **main** into a
+sandbox Docker volume, `gsutil rsync -d`s binaries from `gs://dams-collections-binary-backups/<name>/`
+(sidecars excluded), then `fin io import`. Rename = the upload: bucket layout mirrors this tree.
+
+Done today:
+- `rename-staging` fast-forwarded into `main` + pushed (f51507d, 42cf2d4 adds the arks/ maps, which
+  the old .gitignore had silently excluded).
+- Server: fresh clone `/digitization/dams-chicago-cafe-metadata-prod`, staged with
+  `python3 stage_binaries.py --extra /digitization/dams-chicago-cafe-metadata --pdfs /digitization/cc_tagged_pdf`
+  → 1,255 tif symlinks (46 split bifolds resolve to the old server checkout's real files), 194 PDF
+  symlinks, 0 broken, 58 GB dereferenced. Tagged PDFs copied to `/digitization/cc_tagged_pdf`.
+- Cloud SDK extracted at `~/google-cloud-sdk` on the server (not on PATH; no auth yet).
+- Prod has the fuzzy-date deploy (dams#438 strings in prod bundle; tags 2.10.0/2.10.1).
+
+Remaining:
+1. Dusty: bucket folder name (proposed `chicago-cafe`) + sandbox volume (61.2 GB upload).
+2. Server auth: `~/google-cloud-sdk/bin/gcloud auth login --no-browser` (or copy Mac creds).
+3. Upload (byobu):
+   `cd /digitization/dams-chicago-cafe-metadata-prod && ~/google-cloud-sdk/bin/gsutil -m rsync -c -r -x '(^\.git|.*\.jsonld\.json$|.*\.py$|.*\.csv$|.*\.md$|.*\.txt$)' . gs://dams-collections-binary-backups/chicago-cafe/`
+   gsutil follows symlinks. Dry-run with `-n` first; verify object count = 1,449 (1,255 + 194).
+4. Dusty runs the import job against prod (DRY_RUN=true first). NEVER import main to dev.
+5. Post-import: item count 371; split menus = 4-page books; EDTF dates render; redo Kevin's admin
+   edits on prod (featuredImage + 6 highlights live in the application container, not the import).
+
 ## Done
 - **373 items** imported to dev (103 grouped multi-page, 90 loose, 180 photos), real EZID ARKs, FAST subjects, content-type facet (Photographs/Menus/Ephemera). Derivatives generated.
 - **Orientation fixed** (pixels baked, masters untouched): `grouped_088` (1949 calendar), `grouped_089` left as-is, `grouped_015` (order pads), `grouped_115` (1988 calendar).
