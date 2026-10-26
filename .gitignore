@@ -17,3 +17,7 @@ __pycache__/
 fast/batches/
 fast/proposals/
 fast/items_index.json
+
+# ARK + rename maps are needed by stage_binaries.py and for provenance
+!arks/*.json
+!fast_cache.json

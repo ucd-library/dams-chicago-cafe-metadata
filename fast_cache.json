@@ -1,0 +1,433 @@
+{
+  "Hong Kong": null,
+  "China--Hong Kong": {
+    "@id": "http://id.worldcat.org/fast/1297068",
+    "schema:name": "China--Hong Kong (Hong Kong)"
+  },
+  "Chinese Americans": {
+    "@id": "http://id.worldcat.org/fast/857249",
+    "schema:name": "Chinese Americans"
+  },
+  "Photographs": {
+    "@id": "http://id.worldcat.org/fast/1061684",
+    "schema:name": "Photographs"
+  },
+  "Menus": {
+    "@id": "http://id.worldcat.org/fast/1016875",
+    "schema:name": "Menus"
+  },
+  "Ephemera": {
+    "@id": "http://id.worldcat.org/fast/1919921",
+    "schema:name": "Ephemera"
+  },
+  "Restaurants": {
+    "@id": "http://id.worldcat.org/fast/1095907",
+    "schema:name": "Restaurants"
+  },
+  "California--Woodland": {
+    "@id": "http://id.worldcat.org/fast/1207623",
+    "schema:name": "California--Woodland"
+  },
+  "Mexico--Mexicali": {
+    "@id": "http://id.worldcat.org/fast/1216926",
+    "schema:name": "Mexico--Mexicali"
+  },
+  "Parades": {
+    "@id": "http://id.worldcat.org/fast/1052822",
+    "schema:name": "Parades"
+  },
+  "Fishing": {
+    "@id": "http://id.worldcat.org/fast/926650",
+    "schema:name": "Fishing"
+  },
+  "Beauty contests": {
+    "@id": "http://id.worldcat.org/fast/829350",
+    "schema:name": "Beauty contests"
+  },
+  "Chinese restaurants": {
+    "@id": "http://id.worldcat.org/fast/1743659",
+    "schema:name": "Chinese restaurants"
+  },
+  "Business cards": {
+    "@id": "http://id.worldcat.org/fast/842415",
+    "schema:name": "Business cards"
+  },
+  "California--Sacramento": {
+    "@id": "http://id.worldcat.org/fast/1205542",
+    "schema:name": "California--Sacramento"
+  },
+  "Automobiles": {
+    "@id": "http://id.worldcat.org/fast/823232",
+    "schema:name": "Automobiles"
+  },
+  "Dogs": {
+    "@id": "http://id.worldcat.org/fast/896265",
+    "schema:name": "Dogs"
+  },
+  "Pumpkin": {
+    "@id": "http://id.worldcat.org/fast/1084035",
+    "schema:name": "Pumpkin"
+  },
+  "Christmas": {
+    "@id": "http://id.worldcat.org/fast/859787",
+    "schema:name": "Christmas"
+  },
+  "Dinners and dining": {
+    "@id": "http://id.worldcat.org/fast/893952",
+    "schema:name": "Dinners and dining"
+  },
+  "Kitchens": {
+    "@id": "http://id.worldcat.org/fast/987926",
+    "schema:name": "Kitchens"
+  },
+  "Children": {
+    "@id": "http://id.worldcat.org/fast/854835",
+    "schema:name": "Children"
+  },
+  "Christmas trees": {
+    "@id": "http://id.worldcat.org/fast/859901",
+    "schema:name": "Christmas trees"
+  },
+  "Fire engines": {
+    "@id": "http://id.worldcat.org/fast/925305",
+    "schema:name": "Fire engines"
+  },
+  "Bicycles": {
+    "@id": "http://id.worldcat.org/fast/831489",
+    "schema:name": "Bicycles"
+  },
+  "Horses": {
+    "@id": "http://id.worldcat.org/fast/960603",
+    "schema:name": "Horses"
+  },
+  "Horsemanship": {
+    "@id": "http://id.worldcat.org/fast/960561",
+    "schema:name": "Horsemanship"
+  },
+  "California--Pleasanton": {
+    "@id": "http://id.worldcat.org/fast/1214300",
+    "schema:name": "California--Pleasanton"
+  },
+  "Paper money": {
+    "@id": "http://id.worldcat.org/fast/1052532",
+    "schema:name": "Paper money"
+  },
+  "China": {
+    "@id": "http://id.worldcat.org/fast/1206073",
+    "schema:name": "China"
+  },
+  "Women": {
+    "@id": "http://id.worldcat.org/fast/1176568",
+    "schema:name": "Women"
+  },
+  "Bathing suits": {
+    "@id": "http://id.worldcat.org/fast/828712",
+    "schema:name": "Bathing suits"
+  },
+  "Baseball fields": {
+    "@id": "http://id.worldcat.org/fast/827980",
+    "schema:name": "Baseball fields"
+  },
+  "Portrait photography": {
+    "@id": "http://id.worldcat.org/fast/1072259",
+    "schema:name": "Portrait photography"
+  },
+  "Trucks": {
+    "@id": "http://id.worldcat.org/fast/1157775",
+    "schema:name": "Trucks"
+  },
+  "Graduation (School)": null,
+  "Couples": {
+    "@id": "http://id.worldcat.org/fast/881567",
+    "schema:name": "Couples"
+  },
+  "Christmas decorations": {
+    "@id": "http://id.worldcat.org/fast/859813",
+    "schema:name": "Christmas decorations"
+  },
+  "Sturgeons": {
+    "@id": "http://id.worldcat.org/fast/1136268",
+    "schema:name": "Sturgeons"
+  },
+  "Chop suey": null,
+  "Thanksgiving": {
+    "@id": "http://id.worldcat.org/fast/1794258",
+    "schema:name": "Thanksgiving"
+  },
+  "Tableware": {
+    "@id": "http://id.worldcat.org/fast/1141783",
+    "schema:name": "Tableware"
+  },
+  "Confucianism": {
+    "@id": "http://id.worldcat.org/fast/875056",
+    "schema:name": "Confucianism"
+  },
+  "Charitable contributions": null,
+  "Postal service": {
+    "@id": "http://id.worldcat.org/fast/1072885",
+    "schema:name": "Postal service"
+  },
+  "Advertising": {
+    "@id": "http://id.worldcat.org/fast/797511",
+    "schema:name": "Advertising"
+  },
+  "School yearbooks": {
+    "@id": "http://id.worldcat.org/fast/1107930",
+    "schema:name": "School yearbooks"
+  },
+  "Chinese American cooking": null,
+  "Cooking, Chinese": {
+    "@id": "http://id.worldcat.org/fast/1753278",
+    "schema:name": "Cooking, Chinese"
+  },
+  "Emigration and immigration": {
+    "@id": "http://id.worldcat.org/fast/908690",
+    "schema:name": "Emigration and immigration"
+  },
+  "Cooking": {
+    "@id": "http://id.worldcat.org/fast/1754966",
+    "schema:name": "Cooking"
+  },
+  "Thanksgiving Day": {
+    "@id": "http://id.worldcat.org/fast/1149171",
+    "schema:name": "Thanksgiving Day"
+  },
+  "Cooks": {
+    "@id": "http://id.worldcat.org/fast/878051",
+    "schema:name": "Cooks"
+  },
+  "Bread": {
+    "@id": "http://id.worldcat.org/fast/1198482",
+    "schema:name": "Bread"
+  },
+  "Calendars": {
+    "@id": "http://id.worldcat.org/fast/844227",
+    "schema:name": "Calendars"
+  },
+  "Finance": {
+    "@id": "http://id.worldcat.org/fast/924349",
+    "schema:name": "Finance"
+  },
+  "Newspapers": {
+    "@id": "http://id.worldcat.org/fast/1037111",
+    "schema:name": "Newspapers"
+  },
+  "California": {
+    "@id": "http://id.worldcat.org/fast/1204928",
+    "schema:name": "California"
+  },
+  "Nevada": {
+    "@id": "http://id.worldcat.org/fast/1205660",
+    "schema:name": "Nevada"
+  },
+  "Rationing": {
+    "@id": "http://id.worldcat.org/fast/1090287",
+    "schema:name": "Rationing"
+  },
+  "World War, 1939-1945": null,
+  "Letters": {
+    "@id": "http://id.worldcat.org/fast/996779",
+    "schema:name": "Letters"
+  },
+  "California--Berkeley": {
+    "@id": "http://id.worldcat.org/fast/1205020",
+    "schema:name": "California--Berkeley"
+  },
+  "United States. Congress": {
+    "@id": "http://id.worldcat.org/fast/529490",
+    "schema:name": "United States. Congress"
+  },
+  "Lotteries": {
+    "@id": "http://id.worldcat.org/fast/1002676",
+    "schema:name": "Lotteries"
+  },
+  "California--San Francisco": {
+    "@id": "http://id.worldcat.org/fast/1204481",
+    "schema:name": "California--San Francisco"
+  },
+  "Colorado--Colorado Springs": null,
+  "Signs and signboards": {
+    "@id": "http://id.worldcat.org/fast/1118336",
+    "schema:name": "Signs and signboards"
+  },
+  "Bars (Drinking establishments)": null,
+  "Supermarkets": {
+    "@id": "http://id.worldcat.org/fast/1138915",
+    "schema:name": "Supermarkets"
+  },
+  "Colorado": {
+    "@id": "http://id.worldcat.org/fast/1210251",
+    "schema:name": "Colorado"
+  },
+  "Colorado--Littleton": {
+    "@id": "http://id.worldcat.org/fast/1210907",
+    "schema:name": "Colorado--Littleton"
+  },
+  "Seafood": {
+    "@id": "http://id.worldcat.org/fast/1110222",
+    "schema:name": "Seafood"
+  },
+  "Mexican restaurants": null,
+  "Bakeries": {
+    "@id": "http://id.worldcat.org/fast/1431876",
+    "schema:name": "Bakeries"
+  },
+  "California--Roseville": {
+    "@id": "http://id.worldcat.org/fast/1214303",
+    "schema:name": "California--Roseville"
+  },
+  "Associations, institutions, etc.": {
+    "@id": "http://id.worldcat.org/fast/819166",
+    "schema:name": "Associations, institutions, etc."
+  },
+  "Publishers and publishing": {
+    "@id": "http://id.worldcat.org/fast/1083463",
+    "schema:name": "Publishers and publishing"
+  },
+  "Business records": {
+    "@id": "http://id.worldcat.org/fast/842845",
+    "schema:name": "Business records"
+  },
+  "Chronology, Chinese": {
+    "@id": "http://id.worldcat.org/fast/860204",
+    "schema:name": "Chronology, Chinese"
+  },
+  "Receipts (Acknowledgments)": null,
+  "Automobile insurance": {
+    "@id": "http://id.worldcat.org/fast/1715772",
+    "schema:name": "Automobile insurance"
+  },
+  "Chinese language": {
+    "@id": "http://id.worldcat.org/fast/857383",
+    "schema:name": "Chinese language"
+  },
+  "English language": {
+    "@id": "http://id.worldcat.org/fast/910920",
+    "schema:name": "English language"
+  },
+  "Encyclopedias and dictionaries": {
+    "@id": "http://id.worldcat.org/fast/909533",
+    "schema:name": "Encyclopedias and dictionaries"
+  },
+  "Awnings": {
+    "@id": "http://id.worldcat.org/fast/824457",
+    "schema:name": "Awnings"
+  },
+  "Buildings": {
+    "@id": "http://id.worldcat.org/fast/840962",
+    "schema:name": "Buildings"
+  },
+  "California--San Marino": {
+    "@id": "http://id.worldcat.org/fast/1212031",
+    "schema:name": "California--San Marino"
+  },
+  "Yearbooks": {
+    "@id": "http://id.worldcat.org/fast/1182595",
+    "schema:name": "Yearbooks"
+  },
+  "Tennessee--Knoxville": {
+    "@id": "http://id.worldcat.org/fast/1206442",
+    "schema:name": "Tennessee--Knoxville"
+  },
+  "Hotels": {
+    "@id": "http://id.worldcat.org/fast/961767",
+    "schema:name": "Hotels"
+  },
+  "California--Vallejo": {
+    "@id": "http://id.worldcat.org/fast/1206764",
+    "schema:name": "California--Vallejo"
+  },
+  "New Jersey--Caldwell": {
+    "@id": "http://id.worldcat.org/fast/1237372",
+    "schema:name": "New Jersey--Caldwell"
+  },
+  "Boys": {
+    "@id": "http://id.worldcat.org/fast/837358",
+    "schema:name": "Boys"
+  },
+  "Mountains": {
+    "@id": "http://id.worldcat.org/fast/1028366",
+    "schema:name": "Mountains"
+  },
+  "Families": {
+    "@id": "http://id.worldcat.org/fast/1728849",
+    "schema:name": "Families"
+  },
+  "Bass (Fish)": null,
+  "Weddings": {
+    "@id": "http://id.worldcat.org/fast/1173328",
+    "schema:name": "Weddings"
+  },
+  "Waiters": {
+    "@id": "http://id.worldcat.org/fast/1169941",
+    "schema:name": "Waiters"
+  },
+  "Men": {
+    "@id": "http://id.worldcat.org/fast/1015978",
+    "schema:name": "Men"
+  },
+  "California--Lake Berryessa": {
+    "@id": "http://id.worldcat.org/fast/1333652",
+    "schema:name": "California--Lake Berryessa"
+  },
+  "Dwellings": {
+    "@id": "http://id.worldcat.org/fast/899978",
+    "schema:name": "Dwellings"
+  },
+  "Girls": {
+    "@id": "http://id.worldcat.org/fast/942866",
+    "schema:name": "Girls"
+  },
+  "Mahjong": null,
+  "Floats (Parades)": null,
+  "Soldiers": {
+    "@id": "http://id.worldcat.org/fast/1125233",
+    "schema:name": "Soldiers"
+  },
+  "Vending machines": {
+    "@id": "http://id.worldcat.org/fast/1165139",
+    "schema:name": "Vending machines"
+  },
+  "Picnicking": null,
+  "Waitresses": {
+    "@id": "http://id.worldcat.org/fast/1169947",
+    "schema:name": "Waitresses"
+  },
+  "Passports": {
+    "@id": "http://id.worldcat.org/fast/1054473",
+    "schema:name": "Passports"
+  },
+  "Family": {
+    "@id": "http://id.worldcat.org/fast/2056985",
+    "schema:name": "Family (McCarthy, Kevin)"
+  },
+  "Photographers": {
+    "@id": "http://id.worldcat.org/fast/1061605",
+    "schema:name": "Photographers"
+  },
+  "Catfishes": {
+    "@id": "http://id.worldcat.org/fast/849039",
+    "schema:name": "Catfishes"
+  },
+  "Bridges": {
+    "@id": "http://id.worldcat.org/fast/838671",
+    "schema:name": "Bridges"
+  },
+  "World War (1939-1945)": null,
+  "Bass fishing": {
+    "@id": "http://id.worldcat.org/fast/828435",
+    "schema:name": "Bass fishing"
+  },
+  "Mah jong": {
+    "@id": "http://id.worldcat.org/fast/1005956",
+    "schema:name": "Mah jong"
+  },
+  "Parade floats": {
+    "@id": "http://id.worldcat.org/fast/1052819",
+    "schema:name": "Parade floats"
+  },
+  "Picnics": {
+    "@id": "http://id.worldcat.org/fast/1732289",
+    "schema:name": "Picnics"
+  }
+}
