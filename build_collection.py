@@ -446,7 +446,8 @@ def build_item(item_id, title, item_type, tif_relpaths, date_raw, description, c
     if basenames:
         node["schema:image"] = {"@id": f"@base:/media/images/{basenames[0]}"}
 
-    ident = [f"ark:/PLACEHOLDER/{item_id}", COLLECTION_ID, item_id]
+    # item_id (grouped_118 etc.) is a repo folder name only; keep it off the public item page
+    ident = [f"ark:/PLACEHOLDER/{item_id}", COLLECTION_ID]
     if box_folder and box_folder.strip().lower() not in ("digital only", "double check", ""):
         ident.append(f"Box:Folder {box_folder.strip()}")
     node["schema:identifier"] = ident
